@@ -23,7 +23,7 @@ class User(models.Model):
 
     class Meta:
         db_table = 'user_happypaws'
-        managed = False
+        managed = True
 
     def __str__(self):
         return self.username or self.email
@@ -44,7 +44,7 @@ class Feedback(models.Model):
 
     class Meta:
         db_table = 'feedback'
-        managed = False   
+        managed = True   
 
     def __str__(self):
         return f"Feedback {self.feedback_id}"
@@ -120,7 +120,7 @@ class Order_table(models.Model):
 
     class Meta:
         db_table = 'order_table'   
-        managed = False            
+        managed = True            
 
     def __str__(self):
         return f"Order {self.order_id} by User {self.user_id}"
@@ -152,7 +152,7 @@ class Pet(models.Model):
 
     class Meta:
         db_table = 'pet'   
-        managed = False 
+        managed = True 
 
     def __str__(self):
         return self.pet_name
@@ -185,7 +185,7 @@ class PetHealth(models.Model):
 
     class Meta:
         db_table = 'pet_health'   
-        managed = False 
+        managed = True 
 
     def __str__(self):
         return f"{self.pet.pet_name} - Health Record"
@@ -228,7 +228,7 @@ class BoardingRequest(models.Model):
 
     class Meta:
         db_table = 'boarding_request'   
-        managed = False 
+        managed = True 
 
     def __str__(self):
         return f"{self.pet} booking at {self.shelter}"
@@ -274,7 +274,7 @@ class ShelterPayment(models.Model):
 
     class Meta:
         db_table = 'shelter_payment'
-        managed = False  # keep False since table already exists
+        managed = True  # keep False since table already exists
 
     def __str__(self):
         return f"Payment {self.shelter_payment_id}"
@@ -324,7 +324,7 @@ class Order_table(models.Model):
 
     class Meta:
         db_table = 'order_table'
-        managed = False
+        managed = True
 
     def __str__(self):
         return f"Order {self.order_id}"
@@ -354,7 +354,7 @@ class Order_item(models.Model):
 
     class Meta:
         db_table = 'order_item'
-        managed = False
+        managed = True
 
     def __str__(self):
         return f"Item {self.order_item_id}"
