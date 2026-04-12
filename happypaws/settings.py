@@ -101,25 +101,33 @@ WSGI_APPLICATION = 'happypaws.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+import dj_database_url
+
+if os.getenv("DATABASE_URL"):
+    # ✅ Production (Render)
+    DATABASES = {
+        'default': dj_database_url.parse(os.getenv("DATABASE_URL"))
+    }
+else:
+    # ✅ Local (your MySQL)
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': "happypaws",
+            "USER": "root",
+            "PASSWORD": "",
+            "HOST": "127.0.0.1",
+            "PORT": "3306",
+        }
+    }
+# import os
+
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': "happypaws",
-#         "USER": "root",
-#         "PASSWORD": "",
-#         "HOST": "127.0.0.1",
-#         "PORT": "3306",
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
-# } 
-
-import os
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
