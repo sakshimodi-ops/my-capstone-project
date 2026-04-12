@@ -1,0 +1,66 @@
+{% extends 'myadmin/demo.html' %}
+
+{% block title %}Shelters{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+
+        <h4 class="card-title">Shelter Table</h4>
+        <p class="card-description"><code>Find shelter</code></p>
+
+ <form method="GET" action="" class="mb-5 d-flex">
+    <input type="text"
+           name="q"
+           placeholder="Search by Name, City, Area, Pincode"
+           class="form-control me-2"
+           value="{{ query|default:'' }}">
+    <button type="submit" class="btn btn-primary">
+        Search
+    </button>
+</form>
+
+
+
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Shelter Name</th>
+                <th>Location</th>
+                <th>Price</th>
+                <th>Contact</th>
+                <th>Capacity</th>
+                <th>Available Slots</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for s in shelters %}
+              <tr>
+                <td>{{ s.shelter_name }}</td>
+                <td>{{ s.address1 }} , {{ s.address2 }} , {{ s.city }} , {{ s.area }} , {{ s.pincode }}</td>
+                <td>{{ s.price }}</td>
+                <td>{{ s.contact }}</td>
+                <td>{{ s.capacity }}</td>
+                <td>{{ s.available_slot_count }}</td>
+                 <td><a href="shelter_edit/{{s.shelter_id}}">Edit</td>
+                 <td><a href="shelter_delete/{{s.shelter_id}}">Delete</td>
+              </tr>
+              {% empty %}
+              <tr>
+                <td colspan="6" class="text-center">No shelters found</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

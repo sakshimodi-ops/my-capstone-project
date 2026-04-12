@@ -1,0 +1,226 @@
+{% extends 'myadmin/demo.html' %}
+
+{% block title %}Users{% endblock %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Pets</title>
+
+<style>
+body {
+    background: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.pets-wrapper {
+    max-width: 1300px;
+    margin: auto;
+    padding: 15px 10px 30px;
+}
+
+/* Horizontal Card */
+.pet-card {
+    display: flex;
+    background: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    margin-bottom: 18px;
+    transition: 0.3s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* Image */
+.pet-image {
+    width: 200px;
+    min-width: 200px;
+    height: 170px;
+}
+
+.pet-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Content */
+.pet-details {
+    padding: 14px 18px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Header */
+.pet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pet-header h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+
+/* Meta */
+.pet-meta {
+    font-size: 18px;
+    color: #777;
+    margin: 4px 0 6px;
+}
+
+/* Tags */
+.health-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.health-tags span {
+    background: #eef2ff;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #3b5bdb;
+    font-weight: 600;
+}
+
+/* Description */
+.pet-desc {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Bottom Row */
+.pet-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+/* Vaccine */
+.vaccine {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Status */
+.status {
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.sent {
+    background: #d4edda;
+    color: #155724;
+}
+
+.no-pets {
+    text-align: center;
+    font-size: 18px;
+    padding: 40px;
+    color: #888;
+}
+</style>
+</head>
+
+<body>
+ <div class="main-panel">
+<div class="content-wrapper">
+
+<div class="row mb-3">
+  <div class="col-sm-12">
+      <h4 class="font-weight-bold text-dark">Pet Health Records</h4>
+      <p class="text-muted">Complete medical history</p>
+  </div>
+</div>
+
+<div class="pets-wrapper">
+
+{% for pet in pets %}
+<div class="pet-card">
+
+    <div class="pet-image">
+        <img src="/media/{{ pet.pet_image }}" alt="{{ pet.pet_name }}">
+    </div>
+
+    <div class="pet-details">
+
+        <div class="pet-header">
+            <h3>{{ pet.pet_name }}</h3>
+            
+        </div>
+
+        <div class="pet-meta">
+            🐾 {{ pet.breed }} • {{ pet.age }} yrs • {{ pet.weight }} kg • {{ pet.gender|title }}
+        </div>
+
+        {% with pet.health_records.last as health %}
+        {% if health %}
+
+        <div class="health-tags">
+            {% if health.disease %}<span> Disease : {{ health.disease }}</span>{% endif %}
+           {% if health.allergies %}<span> Allergies : {{health.allergies}}</span>{% endif %}
+            {% if health.medicine %}<span>Medicine : {{ health.medicine }}</span>{% endif %}
+           
+        </div>
+       
+     
+
+        <p class="pet-desc">
+            {{ health.description|truncatewords:18 }}
+        </p>
+
+        <div class="pet-bottom">
+            <div class="vaccine">
+                💉Vaccine name : {{ health.vaccine_name }} <br>
+                Last vaccination date: {{ health.last_vaccination }} | Next vaccination date: {{ health.next_vaccination }}
+            </div>
+
+            <!-- <span class="status {{ health.reminder_status }}">
+                {{ health.reminder_status|title }}
+            </span> -->
+        </div>
+
+        {% else %}
+        <p class="pet-desc">No health records available.</p>
+        {% endif %}
+        {% endwith %}
+
+    </div>
+</div>
+{% empty %}
+<p class="no-pets">No pets found.</p>
+{% endfor %}
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
+
+
+{% endblock %}

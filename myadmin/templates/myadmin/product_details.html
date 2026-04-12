@@ -1,0 +1,101 @@
+{% extends 'myadmin/demo.html' %}
+{% block title %}{{ product.product_name }}{% endblock %}
+
+{% block content %}
+
+<style>
+  .product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    padding: 20px;
+  }
+
+  .product-image {
+    max-height: 420px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+
+  .product-image:hover {
+    transform: scale(1.05);
+  }
+
+  .price {
+    font-size: 28px;
+    font-weight: 700;
+    color: #28a745;
+  }
+
+  .badge-custom {
+    font-size: 18px;
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+
+  .desc-text {
+    color: #555;
+    line-height: 1.7;
+    font-size: 20px;
+  }
+
+ 
+</style>
+
+<div class="container mt-4">
+  <div class="row g-4 align-items-start">
+
+    <!-- LEFT IMAGE -->
+    <div class="col-md-5">
+      <div class="product-card text-center">
+        {% if product.product_image %}
+          <img src="{{ product.product_image.url }}"
+               class="img-fluid product-image">
+        {% else %}
+          <p>No image available</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- RIGHT DETAILS -->
+    <div class="col-md-7">
+      <h2 class="fw-bold mb-2">{{ product.product_name }}</h2>
+
+      <div class="price mb-3">
+        ₹ {{ product.price }}
+      </div>
+
+      <div class="mb-3">
+       
+        <span class="badge bg-warning text-dark badge-custom">
+          Category: {{ product.category }}
+        </span>
+      </div>
+
+      <hr>
+
+      
+      <p class="desc-text">
+        Age Range : {{product.age_range}}
+        
+      </p>
+      <h5 class="fw-semibold">Description</h5>
+       <p class="desc-text">
+        
+        {{ product.description }}
+        
+      </p>
+
+      <div class="mt-4">
+        <a href="javascript:history.back()"
+           class="btn btn-outline-secondary me-3">
+          ← Back
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

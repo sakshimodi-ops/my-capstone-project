@@ -1,0 +1,207 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Admin Panel{% endblock %}</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/css/vendor.bundle.base.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+<div class="container-scroller">
+
+  <!-- ================= SIDEBAR ================= -->
+  <nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <div class="sidebar-brand-wrapper d-flex align-items-center justify-content-center">
+      <a class="sidebar-brand brand-logo text-white fw-bold" href="#">Regal</a>
+    </div>
+
+    <ul class="nav">
+      <li class="nav-item nav-profile">
+        <a href="#" class="nav-link">
+          <div class="nav-profile-image">
+            <img src="{% static 'myadmin/images/faces/face1.jpg' %}" alt="profile">
+          </div>
+          <div class="nav-profile-text">
+            <span class="font-weight-bold">Edward Spencer</span>
+            <span class="text-secondary text-small">Developer</span>
+          </div>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="menu-title">Dashboard</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="menu-title">Products</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="menu-title">Users</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="menu-title">Shelters</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="menu-title">Feedbacks</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="menu-title">Payments</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- ================= END SIDEBAR ================= -->
+
+  <div class="container-fluid page-body-wrapper">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar p-0 fixed-top d-flex flex-row">
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between w-100">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button">
+          ☰
+        </button>
+
+        <!-- <div class="search-field d-none d-md-block">
+          <input type="text" class="form-control" placeholder="Search Projects...">
+        </div>
+ -->
+        <div class="d-flex align-items-center">
+          <button class="btn btn-primary btn-sm">+ Create New</button>
+        </div>
+      </div>
+    </nav>
+    <!-- ================= END NAVBAR ================= -->
+
+    <!-- ================= MAIN PANEL ================= -->
+    <div class="main-panel">
+      <div class="content-wrapper">
+
+        {% block content %}
+        <!-- Page content here -->
+        {% endblock %}
+
+      </div>
+    </div>
+    <!-- ================= END MAIN PANEL ================= -->
+
+  </div>
+</div>
+
+<!-- JS -->
+<script src="{% static 'myadmin/vendors/js/vendor.bundle.base.js' %}"></script>
+<script src="{% static 'myadmin/js/off-canvas.js' %}"></script>
+<script src="{% static 'myadmin/js/template.js' %}"></script>
+
+</body>
+</html>
+
+
+
+<!-- <div class="row">
+  <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+
+        <h4 class="card-title">Pet Table</h4>
+        <p class="card-description">
+          <code>Pet</code>
+        </p>
+
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+               
+                <th>Pet Name</th>
+                <th>Email</th>
+                <th>Contact No</th>
+                <th>Address</th>
+                <th>Username</th>
+                <th>Pet Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for user in users %}
+              <tr>
+                <td>{{ user.user_id }}</td>
+                <td>{{ user.full_name }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.contact }}</td>
+                <td>{{ user.address }}</td>
+                <td>{{ user.username }}</td>
+                <td><a href="view_pet">View Pet Details</td>
+              </tr>
+              {% empty %}
+              <tr>
+                <td colspan="6" class="text-center">No users found</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+
+
+<!--  <div class="main-content">
+       
+
+        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+            <div class="row w-70 shadow-lg p-4 rounded bg-light d-flex align-items-center">
+                                <h1 class="text-center mb-4 text-primary fw-bold">Details of Pet</h1>
+    
+                <div class="col-md-3 text-center">
+                    <img src="/media/upload/{{more.file_name}}" alt="Pet Photo" 
+                         class="border border-primary p-2"
+                         style="width: 200px; height: 200px; border-radius: 50%; margin-top: 20px;">
+                    <h1 class="mt-4 fw-bold text-primary">{{ more.user.username }}</h1>
+                    <h3 class="text-muted">{{ more.degree }}</h3>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover text-center">
+                               
+                            <tbody class="align-middle">
+                                {% for pet in pets %}
+                                <tr><th class="bg-primary text-white">Pet Name</th> <td>{{ pet.pet_name }}</td></tr>
+                                <tr><th class="bg-primary text-white">Breed</th> <td>{{ pet.breed }}</td></tr>
+                                <tr><th class="bg-primary text-white">Age</th> <td>{{ pet.age }}</td></tr>
+                                <tr><th class="bg-primary text-white">Weight</th> <td>{{ pet.weight }}</td></tr>
+                                <tr><th class="bg-primary text-white">Gender</th> <td>{{ pet.gender }}</td></tr>
+                                <tr><th class="bg-primary text-white">Disease</th> <td>{{ pet.disease }}</td></tr>
+                                <tr><th class="bg-primary text-white">Alllergies</th> <td>{{ pet.allergies }}</td></tr>
+                                <tr><th class="bg-primary text-white">Description </th> <td>{{ pet.description }}</td></tr>
+                                <tr><th class="bg-primary text-white">Medicine</th> <td>{{ pet.medicine }}</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
+ -->

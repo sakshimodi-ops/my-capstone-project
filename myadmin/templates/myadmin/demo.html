@@ -1,0 +1,260 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{% block title %}HappyPaws Admin{% endblock %}</title>
+
+  <!-- base css -->
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/mdi/css/materialdesignicons.min.css' %}">
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/feather/feather.css' %}">
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/base/vendor.bundle.base.css' %}">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- plugins -->
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/flag-icon-css/css/flag-icon.min.css' %}">
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/font-awesome/css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'myadmin/vendors/jquery-bar-rating/fontawesome-stars.css' %}">
+
+  <!-- main css -->
+  <link rel="stylesheet" href="{% static 'myadmin/css/style.css' %}">
+  <link rel="shortcut icon" href="{% static 'myadmin/images/favicon.png' %}">
+</head>
+<!-- <style>
+  .navbar-brand-wrapper {
+    background-color: #1E3A8A !important; /* blue */
+  }
+
+  /* Optional: center logo nicely */
+  .navbar-brand-wrapper img {
+    filter: brightness(0) invert(1); /* makes logo white if it's dark */
+  }
+
+
+  .sidebar {
+  background-color: #1E3A8A !important;
+}
+
+</style> -->
+<!-- <style>
+  .navbar-brand-wrapper {
+    background-color: #1E3A8A !important; /* blue */
+  }
+
+  /* Optional: center logo nicely */
+  .navbar-brand-wrapper img {
+    filter: brightness(0) invert(1); /* makes logo white if it's dark */
+  }
+  /* Sidebar background (if needed) */
+  .sidebar {
+    background-color: #1E3A8A !important;
+  }
+
+  /* Active menu item */
+  .sidebar .nav .nav-item.active > .nav-link {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+    border-left: 4px solid #ffffff !important;
+  }
+
+  /* Hover effect */
+  .sidebar .nav .nav-item > .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.10) !important;
+    color: #ffffff !important;
+  }
+
+  /* Remove purple indicators */
+  .sidebar .nav .nav-item > .nav-link::before,
+  .sidebar .nav .nav-item > .nav-link::after {
+    background-color: transparent !important;
+  }
+
+  /* Submenu active */
+  .sidebar .nav .nav-item .sub-menu .nav-link.active {
+    color: #ffffff !important;
+    border-left: 3px solid #ffffff !important;
+  }
+
+
+  .sidebar .navbar-brand::after,
+  .sidebar .brand-logo::after,
+  .sidebar .brand-logo-mini::after {
+    display: none !important;
+  }
+
+  .sidebar .navbar-brand,
+  .sidebar .brand-logo {
+    border-bottom: none !important;
+  }
+
+</style> -->
+
+<body>
+<div class="container-scroller">
+
+  <!-- NAVBAR -->
+<nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <!-- <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.svg" alt="logo"/></a> -->
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+         <div class="ml-3">
+        <h6 class="mb-0 font-weight-bold text-dark">HappyPaws</h6>
+        <!-- <small class="text-muted">Welcome back 👋</small> -->
+      </div>
+     
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+           
+           <li class="nav-item d-none d-lg-block mr-3 text-muted">
+        <i class="mdi mdi-calendar"></i>
+        <span id="todayDate"></span>
+      </li>
+          <li class="nav-item dropdown d-flex mr-4 ">
+            <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-cog"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Settings</p>
+              <a class="dropdown-item preview-item">               
+                  <i class="icon-head"></i> Profile
+              </a>
+              <a class="dropdown-item preview-item">
+                  <i class="icon-inbox"></i> Logout
+              </a>
+            </div>
+          </li>
+          </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+
+  <div class="container-fluid page-body-wrapper">
+
+    <!-- SIDEBAR -->
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <div class="user-profile">
+        <div class="user-image">
+          <img src="{% static 'myadmin/images/logo1.png' %}">
+        </div>
+        <div class="user-name">HappyPaws</div>
+        <div class="user-designation"></div>
+      </div>
+<ul class="nav">
+
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'index' %}">
+      <i class="fas fa-chart-line menu-icon"></i>
+      <span class="menu-title">Dashboard</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="collapse" href="#ui-basic">
+      <i class="fas fa-box-open menu-icon"></i>
+      <span class="menu-title">Products</span>
+      <i class="menu-arrow"></i>
+    </a>
+    <div class="collapse" id="ui-basic">
+      <ul class="nav flex-column sub-menu">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'add_product' %}">
+            <i class="fas fa-plus-circle"></i> Add Product
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'view_product' %}">
+            <i class="fas fa-list"></i> View Products
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'user' %}">
+      <i class="fas fa-users menu-icon"></i>
+      <span class="menu-title">Users</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="collapse" href="#ui-shelter">
+      <i class="fas fa-house-chimney menu-icon"></i>
+      <span class="menu-title">Shelter</span>
+      <i class="menu-arrow"></i>
+    </a>
+    <div class="collapse" id="ui-shelter">
+      <ul class="nav flex-column sub-menu">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'add_shelter' %}">
+            <i class="fas fa-circle-plus"></i> Add Shelter
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'shelter' %}">
+            <i class="fas fa-building"></i> View Shelters
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'feedback' %}">
+      <i class="fas fa-comment-dots menu-icon"></i>
+      <span class="menu-title">Feedbacks</span>
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'order_table' %}">
+      <i class="fas fa-credit-card menu-icon"></i>
+      <span class="menu-title">Payments</span>
+    </a>
+  </li>
+
+</ul>
+
+    </nav>
+
+    <!-- MAIN PANEL -->
+    <div class="main-panel">
+      <div class="content-wrapper">
+
+        {% block content %}
+        <!-- page content here -->
+        {% endblock %}
+
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+          <span class="text-muted">Copyright © 2020</span>
+          <a href="https://www.flaticon.com/free-icons/pets" title="pets icons">Pets icons created by photo3idea_studio - Flaticon</a>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</div>
+
+<!-- JS -->
+<script src="{% static 'myadmin/vendors/base/vendor.bundle.base.js' %}"></script>
+<script src="{% static 'myadmin/js/off-canvas.js' %}"></script>
+<script src="{% static 'myadmin/js/template.js' %}"></script>
+<script src="{% static 'myadmin/vendors/chart.js/Chart.min.js' %}"></script>
+<script src="{% static 'myadmin/js/dashboard.js' %}"></script>
+
+</body>
+</html>

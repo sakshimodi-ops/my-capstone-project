@@ -1,0 +1,160 @@
+{% extends 'myadmin/demo.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<style>
+  canvas {
+    width: 100% !important;
+    height: 260px !important;
+  }
+
+  .stat-card {
+    border-radius: 14px;
+    color: #fff;
+    padding: 18px;
+  }
+
+  .stat-card h3 {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .stat-card p {
+    margin: 0;
+    opacity: 0.9;
+  }
+</style>
+
+<div class="main-panel">
+  <div class="content-wrapper">
+
+    <!-- Header -->
+    <div class="row mb-3">
+      <div class="col-sm-12">
+        <h4 class="font-weight-bold text-dark">Dashboard</h4>
+        <p class="font-weight-normal mb-2 text-muted">Overview</p>
+      </div>
+    </div>
+
+    <!-- ===== KPI CARDS ===== -->
+    <div class="row mb-4">
+
+      <div class="col-lg-4 col-md-6 mb-3">
+        <div class="stat-card bg-primary shadow">
+          <p>Total Users</p>
+          <h3>{{ total_users }}</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-3">
+        <div class="stat-card bg-success shadow">
+          <p>Total Shelters</p>
+          <h3>{{ total_shelters }}</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-3">
+        <div class="stat-card bg-danger shadow">
+          <p>Total Orders</p>
+          <h3>{{ total_orders }}</h3>
+        </div>
+      </div>
+
+      <!-- <div class="col-lg-3 col-md-6 mb-3">
+        <div class="stat-card bg-danger shadow">
+          <p>Total Revenue</p>
+          <h3>₹ {{ total_revenue }}</h3>
+        </div>
+      </div> -->
+
+    </div>
+
+    <!-- ===== CHARTS ===== -->
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Users Distribution</h5>
+            <canvas id="customersChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Orders Trend</h5>
+            <canvas id="ordersChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <h5 class="card-title">Revenue Trend</h5>
+            <canvas id="revenueChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  var ctxCust = document.getElementById('customersChart').getContext('2d');
+  new Chart(ctxCust, {
+    type: 'doughnut',
+    data: {
+      labels: {{ roles|safe }},
+      datasets: [{
+        data: {{ counts|safe }},
+        backgroundColor: ['#007bff', '#28a745', '#dc3545'],
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom' } }
+    }
+  });
+
+  var ctxOrders = document.getElementById('ordersChart').getContext('2d');
+  new Chart(ctxOrders, {
+    type: 'line',
+    data: {
+      labels: {{ months|safe }},
+      datasets: [{
+        label: 'Orders',
+        data: {{ orders_count|safe }},
+        borderColor: '#007bff',
+        fill: false,
+        tension: 0.3
+      }]
+    },
+    options: { responsive: true, maintainAspectRatio: false }
+  });
+
+  var ctxRevenue = document.getElementById('revenueChart').getContext('2d');
+  new Chart(ctxRevenue, {
+    type: 'bar',
+    data: {
+      labels: {{ revenue_months|safe }},
+      datasets: [{
+        label: 'Revenue (₹)',
+        data: {{ revenue_data|safe }},
+        backgroundColor: '#28a745'
+      }]
+    },
+    options: { responsive: true, maintainAspectRatio: false }
+  });
+</script>
+
+{% endblock %}
