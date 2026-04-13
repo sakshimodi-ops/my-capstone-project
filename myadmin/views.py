@@ -906,34 +906,32 @@ def create_order(request):
     if request.method == "POST":
         try:
             data = json.loads(request.body)
-
             print("DATA:", data)
 
             user_id = data.get("user_id")
             payment_id = data.get("payment_id")
             items = data.get("items", [])
 
-            # print("USER ID:", user_id)
-            # print("PAYMENT ID:", payment_id)
-            # print("ITEMS:", items)
+            print("USER ID:", user_id)
+            print("PAYMENT ID:", payment_id)
+            print("ITEMS:", items)
 
-            # ✅ VALIDATIONS
+            # VALIDATIONS
             if not user_id:
                 return JsonResponse({"error": "User not logged in"}, status=400)
-
             if not items:
                 return JsonResponse({"error": "No items provided"}, status=400)
 
-            # ✅ CALCULATE TOTAL
+            # CALCULATE TOTAL
             total_amount = sum(
                 item["quantity"] * float(item["unit_price"])
                 for item in items
             )
 
-            # ✅ FIRST PRODUCT (required field)
+            # FIRST PRODUCT (required field)
             first_product = items[0]["product_id"]
 
-            # ✅ CREATE ORDER
+            # CREATE ORDER
             order = Order_table.objects.create(
                 user_id=user_id,
                 product_id=first_product,
@@ -945,15 +943,14 @@ def create_order(request):
                 timestamp=timezone.now()
             )
 
-            # ❗ ONLY ADD payment_id IF FIELD EXISTS
+            # ADD payment_id IF FIELD EXISTS
             if hasattr(order, 'payment_id'):
                 order.payment_id = payment_id
                 order.save()
 
-            # ✅ CREATE ORDER ITEMS
+            # CREATE ORDER ITEMS
             for item in items:
                 subtotal = item["quantity"] * Decimal(str(item["unit_price"]))
-
                 Order_item.objects.create(
                     order=order,
                     product_id=item["product_id"],
@@ -964,29 +961,30 @@ def create_order(request):
                     timestamp=timezone.now()
                 )
 
+            print("✅ Order created successfully:", order.order_id)
+
             return JsonResponse({
                 "message": "Order created",
                 "order_id": order.order_id
             }, status=201)
 
         except Exception as e:
-            return JsonResponse({"error": str(e)}, status=500)
+            import traceback
+            traceback.print_exc()
+            return JsonResponse({"error": str(e)}, status=500)  # ✅ INSIDE except
 
-    return JsonResponse({"error": "Invalid request"}, status=400)
+    return JsonResponse({"error": "Invalid request"}, status=400)  # ✅ OUTSIDE if block
 
 
 @api_view(['GET'])
 def get_user_orders(request, user_id):
     orders = Order_table.objects.filter(user_id=user_id)
-
     if not orders.exists():
         return Response({"error": "No orders found"}, status=404)
 
     data = []
-
     for order in orders:
         items = Order_item.objects.filter(order=order)
-
         item_list = []
         for item in items:
             item_list.append({
@@ -994,14 +992,12 @@ def get_user_orders(request, user_id):
                 "quantity": item.quantity,
                 "price": str(item.unit_price)
             })
-
         data.append({
             "order_id": order.order_id,
             "total": str(order.TotalAmount),
-            "payment_id": getattr(order, "payment_id", None),  # ✅ safe
+            "payment_id": getattr(order, "payment_id", None),
             "items": item_list
         })
-
     return Response(data)
 
 
@@ -1206,6 +1202,30 @@ def shelter(request):
     ))
     return Response(data)
 
+def shelter_view(request):
+    query = request.GET.get('q', '')  # search input
+
+    shelters = Shelter.objects.all()
+
+    # 🔍 Search filter
+    if query:
+        shelters = shelters.filter(
+            shelter_name__icontains=query
+        ) | shelters.filter(
+            city__icontains=query
+        ) | shelters.filter(
+            area__icontains=query
+        ) | shelters.filter(
+            pincode__icontains=query
+        )
+
+    context = {
+        "shelters": shelters,
+        "query": query
+    }
+
+    return render(request, "myadmin/shelter.html", context)
+
 
 
 def product_form(request):
@@ -1308,7 +1328,7 @@ def product_edit(request, id):
     context = {
         'result': result
     }
-    return render(request, '/myadmin/product_edit.html', context)
+    return render(request, 'myadmin/product_edit.html', context)
 
 
 
