@@ -1,2124 +1,2124 @@
-[
-{
-  "model": "myadmin.user",
-  "pk": 1,
-  "fields": {
-    "full_name": "shruti patel",
-    "email": "shruti57@gmail.com",
-    "contact": 9856789651,
-    "address": "House No. 45, Krishna Park Society,\r\nSatellite Road,\r\nAhmedabad – 380054,\r\nGujarat, India",
-    "username": "shruti_123",
-    "password": "patelshrut",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 2,
-  "fields": {
-    "full_name": "rohan shah",
-    "email": "rohan45@gmail.com",
-    "contact": 8567896589,
-    "address": "Flat No. 504, Shivalik Heights, located near ISKCON Cross Road on S.G. Highway, Ahmedabad, Gujarat.",
-    "username": "rohan_shah",
-    "password": "rshah_4512",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 3,
-  "fields": {
-    "full_name": "Diya mehta",
-    "email": "diya.125@gmail.com",
-    "contact": 8754234678,
-    "address": "Flat No. 302, Shree Residency\r\nNear Vastrapur Lake\r\nVastrapur, Ahmedabad – 380015\r\nGujarat, India",
-    "username": "d@125",
-    "password": "mehta@1256",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 4,
-  "fields": {
-    "full_name": "Viraj shah",
-    "email": "virajshah@gmail.com",
-    "contact": 7896452535,
-    "address": "Plot No. 45, Shantinagar Society\r\nNear Maninagar Railway Station\r\nManinagar East, Ahmedabad – 380008",
-    "username": "viraj@24",
-    "password": "virajsha.1",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 9,
-  "fields": {
-    "full_name": "vraj",
-    "email": "hkmodi2006@gmail.com",
-    "contact": 4546456565,
-    "address": "ejeej",
-    "username": "vraj08",
-    "password": "pbkdf2_sha256$1200000$c0YU9c1ZAgEQpNUssijfOs$LNAWyqFHWuSzFN5+T2zT3g3taScjU0MRLcEXWG35Nwg=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 10,
-  "fields": {
-    "full_name": "sakshi",
-    "email": "skmodi2005@gmail.com",
-    "contact": 4645655989,
-    "address": "kjjdijijd",
-    "username": "sakshi10",
-    "password": "pbkdf2_sha256$1200000$55a06temFZpkrtVQRw4Xsu$fTk5sMyQ2af3Tv18PUe865mSVvOl3MJC2KII8RcYKaU=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 11,
-  "fields": {
-    "full_name": "kaushik",
-    "email": "kr7271@gmail.com",
-    "contact": 9898310289,
-    "address": "sf 7 ashwamegh apartment, behind Durga school,maninagar",
-    "username": "kaushik04",
-    "password": "pbkdf2_sha256$1200000$04HTzUR3MyfhY0MnS4zJSw$+Xh1jGMQyn01iR4mbBKN9Wi9gBKYzCxQxpz8NugTpsU=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 12,
-  "fields": {
-    "full_name": "Jahanvi",
-    "email": "jahanvitewanitewani@gmail.com",
-    "contact": 7878555155,
-    "address": "Krishna apartment, naranura",
-    "username": "jahanvi_123",
-    "password": "pbkdf2_sha256$1200000$VrcBVqCiXtuJH2oXWPj8Jv$XxeMRZ1ldGmLrfbbDq4irE0Wcyh66qdh3SjFjyBAkVY=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 13,
-  "fields": {
-    "full_name": "atharv kusre",
-    "email": "kusre16@gmail.com",
-    "contact": 9407703713,
-    "address": "Bliss Homes3 PG,Ambavadi,Ahmedabad,Gujrat",
-    "username": "Atharv_Kusre",
-    "password": "pbkdf2_sha256$1200000$X074DFE2V8Q6nHBQlCuf9m$wC2e0kRQ3+09Ie31zwQVWhJJE7Z8gihLFoeCmGvxJdc=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 14,
-  "fields": {
-    "full_name": "Janvi Tewani",
-    "email": "janvi@gmail.com",
-    "contact": 7878555155,
-    "address": "naranpura, ahmedabad",
-    "username": "janvi_123",
-    "password": "pbkdf2_sha256$1200000$AOfWzXyVxTzrHy2ZwH5tZI$qmw4Skitpg0tXu+3Vy0m/USEKTxTyYsXQLsEfQbV6Xg=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 15,
-  "fields": {
-    "full_name": "aryan yadav",
-    "email": "aryan@gmail.com",
-    "contact": 9875697468,
-    "address": "shakti apartment near kankaria , maninagar",
-    "username": "aryan08",
-    "password": "pbkdf2_sha256$1200000$qIZaXzShzICEoFOhDzTTAS$XTYtzk4OD0q3nZPUAnmwnhsJehWTcsMCJXyujRkNJLE=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 16,
-  "fields": {
-    "full_name": "kashish tewani",
-    "email": "kashish@gmail.com",
-    "contact": 8475121041,
-    "address": "naranpura, ahmedabad",
-    "username": "kashish_123",
-    "password": "pbkdf2_sha256$1200000$aDctDOoPJ4qpNW67Qjkg1D$C307BK++6RCkbhiOjk9NUDmcmP/mQTel0u3qG1uffIM=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 17,
-  "fields": {
-    "full_name": "Rahul",
-    "email": "rahul@gmail.com",
-    "contact": 9595926225,
-    "address": "djnjdndndjnfnk",
-    "username": "rahulpatel",
-    "password": "pbkdf2_sha256$1200000$N7l8tAGhNkRrS7VFLmwi7m$g1dm0uhi5tr3sIoCsuZVYFwsSQy7dkE+ZL4H1z6GV64=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 25,
-  "fields": {
-    "full_name": "paw",
-    "email": "paw@gmail.com",
-    "contact": 5458484844,
-    "address": "jsbhs",
-    "username": "paw",
-    "password": "pbkdf2_sha256$720000$n8yvQ4buSehfdeKQEj2X4P$N7ne96VZzmsSGKRgkSG2E1GHd6H5t7P7ANzkm0Y2zts=",
-    "role": "shelter"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 26,
-  "fields": {
-    "full_name": "priya",
-    "email": "priya@gmail.com",
-    "contact": 7896581256,
-    "address": "sf 7,ashwameghapartment,behind Durga school",
-    "username": "priya@123",
-    "password": "pbkdf2_sha256$720000$6rQAljrhrqepjugdmD5ROb$c/GCpc8u+0BfVGaCbcYfx2S86GX/sMKx60QXO529mww=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 27,
-  "fields": {
-    "full_name": "vidhi lalwani",
-    "email": "vidhi@gmail.com",
-    "contact": 8745173151,
-    "address": "a/101, shantinagar society,naranpura, ahmedabad-380013",
-    "username": "vidhi_16",
-    "password": "pbkdf2_sha256$720000$iDiTIEu4x2Ce1uc9RFczuC$/4EhIwDh5lrf4QYykyP3wgMOHqukJ9twJjEuvbIQZk4=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 28,
-  "fields": {
-    "full_name": "dog health",
-    "email": "dog@gmail.com",
-    "contact": 9898854554,
-    "address": "near iskon temple",
-    "username": "doghealth",
-    "password": "pbkdf2_sha256$720000$W4hbQtp1gXYdRCDdWdHHhR$XTgeJygXOI1XOA208XipYaCH5EQumw7ejWclfJ9y0LM=",
-    "role": "shelter"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 30,
-  "fields": {
-    "full_name": "vivaan",
-    "email": "vivaan@gmail.com",
-    "contact": 8932561664,
-    "address": "Shakti aprtment near Mahadev mandir , maninagar",
-    "username": "vivaan08",
-    "password": "pbkdf2_sha256$720000$3vJhy0fOztlSZg3WKHnHFd$0HDdxkJdrpOqfVo42Wg5P5IsjD2DB/kvgGH+P8wQrTI=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 31,
-  "fields": {
-    "full_name": "care and cute pet home",
-    "email": "carecure@gmail.com",
-    "contact": 9622864988,
-    "address": "Prahladnagar",
-    "username": "carecure",
-    "password": "pbkdf2_sha256$720000$j6mD8ypjhTHW6zrOH5QpIp$dYcmRhKXXYMMTeMvn+cw8b72VpPd7Wb/aaJTflWRGn0=",
-    "role": "shelter"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 32,
-  "fields": {
-    "full_name": "nidhi",
-    "email": "nidhi@gmail.com",
-    "contact": 9822153464,
-    "address": "relief road, old city, ahmedabad",
-    "username": "nidhishah",
-    "password": "pbkdf2_sha256$720000$Nfy4kX2AGGORWzMjYjJ233$iAvv7YhgMFMoGiuXQJ+PM8TQ8QIVuPL7hrGpQl9WuPI=",
-    "role": "shelter"
-  }
-},
-{
-  "model": "myadmin.user",
-  "pk": 33,
-  "fields": {
-    "full_name": "sakshimodi",
-    "email": "sakshimodi103@gmail.com",
-    "contact": 9724699998,
-    "address": "Ashwamegh apartment,behind durga school, maninagar",
-    "username": "sakshi05",
-    "password": "pbkdf2_sha256$720000$Sx4NRriWZ7RohdLniNnbKk$DTZ7vl24a7C+jqS7IxGxy6E314zL2UoBsa+WIC7UsdI=",
-    "role": "user"
-  }
-},
-{
-  "model": "myadmin.feedback",
-  "pk": 1,
-  "fields": {
-    "user": 1,
-    "ratings": 5,
-    "comments": "Great initiative by the admin. Happypaws is easy to use and very informative. The product section is also helpful and well managed.",
-    "timestamp": "2026-01-28T12:43:14Z"
-  }
-},
-{
-  "model": "myadmin.feedback",
-  "pk": 2,
-  "fields": {
-    "user": 4,
-    "ratings": 4,
-    "comments": "Very helpful app. Easy to find nearby dog shelters",
-    "timestamp": "2026-02-02T07:33:37Z"
-  }
-},
-{
-  "model": "myadmin.feedback",
-  "pk": 3,
-  "fields": {
-    "user": 3,
-    "ratings": 5,
-    "comments": "User-friendly app with all the important shelter details in one place.",
-    "timestamp": "2026-02-02T07:33:37Z"
-  }
-},
-{
-  "model": "myadmin.feedback",
-  "pk": 4,
-  "fields": {
-    "user": 1,
-    "ratings": 3,
-    "comments": "Love that I can support shelters and shop for pet products in one app.",
-    "timestamp": "2026-02-02T07:35:14Z"
-  }
-},
-{
-  "model": "myadmin.feedback",
-  "pk": 5,
-  "fields": {
-    "user": 4,
-    "ratings": 4,
-    "comments": "Smooth experience with good shelter info and products.",
-    "timestamp": "2026-02-02T07:35:14Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 1,
-  "fields": {
-    "shelter_name": "Furry Friends Home",
-    "user": null,
-    "address1": "Near Civil Hospital",
-    "address2": "Block C, Campus Road",
-    "landmark": "Civil Hospital",
-    "city": "Ahmedabad",
-    "area": "Asarwa",
-    "pincode": "380016",
-    "price": "1200.00",
-    "contact": 8756478596,
-    "capacity": 100,
-    "available_slot_count": 15,
-    "timestamp": "2026-01-31T14:54:59Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 2,
-  "fields": {
-    "shelter_name": "Safe Tails Home",
-    "user": null,
-    "address1": "Near ISRO Colony",
-    "address2": "Lane 4, Satellite Road",
-    "landmark": "ISRO Colony",
-    "city": "Ahmedabad",
-    "area": "Satellite",
-    "pincode": "38001",
-    "price": "900.00",
-    "contact": 8578964235,
-    "capacity": 50,
-    "available_slot_count": 30,
-    "timestamp": "2026-02-02T11:29:58Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 3,
-  "fields": {
-    "shelter_name": "Paws & Care",
-    "user": null,
-    "address1": "Near Lake Garden",
-    "address2": "Lake View Road",
-    "landmark": "Kankaria Lake",
-    "city": "Ahmedabad",
-    "area": "Kankaria",
-    "pincode": "380002",
-    "price": "1500.00",
-    "contact": 9678564589,
-    "capacity": 80,
-    "available_slot_count": 20,
-    "timestamp": "2026-02-02T11:29:58Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 4,
-  "fields": {
-    "shelter_name": "FurCare Shelter",
-    "user": null,
-    "address1": "Near University Gate",
-    "address2": "University Main Road",
-    "landmark": "Gujarat University",
-    "city": "Ahmedabad",
-    "area": "Navrangpura",
-    "pincode": "380009",
-    "price": "1300.00",
-    "contact": 9678541236,
-    "capacity": 150,
-    "available_slot_count": 50,
-    "timestamp": "2026-02-02T11:32:00Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 5,
-  "fields": {
-    "shelter_name": "Stray Love Shelter",
-    "user": null,
-    "address1": "Opp. Hanuman Temple",
-    "address2": "Temple Street",
-    "landmark": "Hanuman Temple",
-    "city": "Ahmedabad",
-    "area": "Meghaninagar",
-    "pincode": "380016",
-    "price": "850.00",
-    "contact": 8745692315,
-    "capacity": 60,
-    "available_slot_count": 42,
-    "timestamp": "2026-02-02T11:32:00Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 8,
-  "fields": {
-    "shelter_name": "dog care",
-    "user": 25,
-    "address1": "hhhh",
-    "address2": "kkmk",
-    "landmark": "mkmkm",
-    "city": "kmkm",
-    "area": "kmkm",
-    "pincode": "380008",
-    "price": "500.00",
-    "contact": 8964788888,
-    "capacity": 100,
-    "available_slot_count": 99,
-    "timestamp": "2026-03-26T16:19:11Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 9,
-  "fields": {
-    "shelter_name": "dog health",
-    "user": 28,
-    "address1": "iskon temple",
-    "address2": "satellite",
-    "landmark": "iskon temple",
-    "city": "ahmedabad",
-    "area": "satellite",
-    "pincode": "380008",
-    "price": "50.00",
-    "contact": 9665852228,
-    "capacity": 100,
-    "available_slot_count": 99,
-    "timestamp": "2026-03-27T07:01:13Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 10,
-  "fields": {
-    "shelter_name": "care and cure pet home",
-    "user": 31,
-    "address1": "14 sg highway",
-    "address2": "near prahlaad nagar gardern",
-    "landmark": "prahladnagar nagar garden",
-    "city": "ahmedabad",
-    "area": "prahladnagar",
-    "pincode": "380051",
-    "price": "500.00",
-    "contact": 9622864988,
-    "capacity": 30,
-    "available_slot_count": 28,
-    "timestamp": "2026-04-13T00:16:40Z"
-  }
-},
-{
-  "model": "myadmin.shelter",
-  "pk": 11,
-  "fields": {
-    "shelter_name": "animal aid shelter",
-    "user": 32,
-    "address1": "7 drive in road",
-    "address2": "near Himalaya mall",
-    "landmark": "Himalaya mall",
-    "city": "ahmedabad",
-    "area": "memnagar",
-    "pincode": "380052",
-    "price": "650.00",
-    "contact": 9986464646,
-    "capacity": 50,
-    "available_slot_count": 50,
-    "timestamp": "2026-04-13T00:19:00Z"
-  }
-},
-{
-  "model": "myadmin.product_form",
-  "pk": 1,
-  "fields": {
-    "product_name": "Pedigree Adult Dry Dog Food",
-    "category": "Food",
-    "price": "799.98",
-    "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 10 kg, Contains 37 Essential Nutrients, 100% Complete & Balanced Food for Adult Dogs",
-    "age_range": "Adult",
-    "product_image": "product_images/Pedigree_Adult_Dry_Dog_Food.jpg",
-    "timestamp": "2026-02-01T07:39:01.437Z"
-  }
-},
-{
-  "model": "myadmin.product_form",
-  "pk": 2,
-  "fields": {
-    "product_name": " Dog Vest",
-    "category": "Accesories",
-    "price": "1400.00",
-    "description": "Premium Reflective Dog Vest Harness| Soft Breathable| Padded Handle| Adjustable Straps & Dual Lock Buckle| No-Choke Design with Free Leash-22mm Chest 28-37inch All Giant Breeds 35-60Kg",
-    "age_range": "Adult",
-    "product_image": "product_images/dog_vest.jpg",
-    "timestamp": "2026-02-02T01:55:35.347Z"
-  }
-},
-{
-  "model": "myadmin.product_form",
-  "pk": 3,
-  "fields": {
-    "product_name": "Tails Dog Ball,",
-    "category": "Toy",
-    "price": "499.00",
-    "description": "Goofy Tails Dog Ball, Big Ball for Large Dogs, Dog Toys Large Breed, Non-Toxic Chew Toys for Dogs (Colour May Vary)",
-    "age_range": "Adult",
-    "product_image": "product_images/dog_toy.jpg",
-    "timestamp": "2026-02-02T01:57:52.331Z"
-  }
-},
-{
-  "model": "myadmin.product_form",
-  "pk": 4,
-  "fields": {
-    "product_name": "Puppy Dry Dog Food",
-    "category": "Food",
-    "price": "1800.00",
-    "description": "\r\nDrools Puppy Dry Dog Food 10kg | Chicken & Egg Flavour | Promotes Optimum Growth | Omega 3 & 6 for Healthy Growth | Better Digestibility & Health | DHA for Smarter & Strong Puppy",
-    "age_range": "puppy",
-    "product_image": "product_images/dog_food.jpg",
-    "timestamp": "2026-02-02T02:00:04.120Z"
-  }
-},
-{
-  "model": "myadmin.product_form",
-  "pk": 6,
-  "fields": {
-    "product_name": "Dumbbell Plush Toy",
-    "category": "Toy",
-    "price": "338.00",
-    "description": "Goofy Tails Gym Series Dumbbell Plush Toy for Dogs | Squeaky Toy for Dogs and Puppies | Great for Playing Fetch and Retrieve (Red)",
-    "age_range": "all",
-    "product_image": "product_images/toy1.jpg",
-    "timestamp": "2026-02-02T06:29:28.243Z"
-  }
-},
-{
-  "model": "myadmin.product_form",
-  "pk": 8,
-  "fields": {
-    "product_name": " Dog Vest",
-    "category": "Accesories",
-    "price": "1200.00",
-    "description": " Dog Vest",
-    "age_range": "all",
-    "product_image": "product_images/dog_vest_vgNfsQB.jpg",
-    "timestamp": "2026-02-08T05:03:47.332Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 1,
-  "fields": {
-    "user": 1,
-    "product": 1,
-    "TotalAmount": "800.00",
-    "order_date": "2026-02-01T09:10:05Z",
-    "payment_status": "completed",
-    "payment_mode": "online",
-    "payment_id": null,
-    "payment_date": "2026-02-01T09:10:05Z",
-    "timestamp": "2026-02-01T13:40:40Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 2,
-  "fields": {
-    "user": 4,
-    "product": 3,
-    "TotalAmount": "799.00",
-    "order_date": "2025-11-03T07:36:45Z",
-    "payment_status": "completed",
-    "payment_mode": "online",
-    "payment_id": null,
-    "payment_date": "2025-11-03T07:36:45Z",
-    "timestamp": "2026-02-02T07:38:29Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 3,
-  "fields": {
-    "user": 3,
-    "product": 2,
-    "TotalAmount": "1400.00",
-    "order_date": "2025-12-10T07:36:45Z",
-    "payment_status": "completed",
-    "payment_mode": "online",
-    "payment_id": null,
-    "payment_date": "2025-12-10T07:36:45Z",
-    "timestamp": "2026-02-02T07:38:29Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 4,
-  "fields": {
-    "user": 1,
-    "product": 1,
-    "TotalAmount": "799.98",
-    "order_date": "2026-03-22T10:43:24Z",
-    "payment_status": "completed",
-    "payment_mode": "online",
-    "payment_id": null,
-    "payment_date": "2026-03-22T10:43:24Z",
-    "timestamp": "2026-03-22T10:43:24Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 5,
-  "fields": {
-    "user": 17,
-    "product": 1,
-    "TotalAmount": "2599.98",
-    "order_date": "2026-03-27T00:03:37Z",
-    "payment_status": "",
-    "payment_mode": "online",
-    "payment_id": "pay_SW2ro0xUvDOqSU",
-    "payment_date": "2026-03-27T00:03:37Z",
-    "timestamp": "2026-03-27T00:03:37Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 6,
-  "fields": {
-    "user": 26,
-    "product": 1,
-    "TotalAmount": "3098.98",
-    "order_date": "2026-03-27T06:56:08Z",
-    "payment_status": "",
-    "payment_mode": "online",
-    "payment_id": "pay_SW9tW7UOvGtfjS",
-    "payment_date": "2026-03-27T06:56:08Z",
-    "timestamp": "2026-03-27T06:56:08Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 7,
-  "fields": {
-    "user": 17,
-    "product": 4,
-    "TotalAmount": "7200.00",
-    "order_date": "2026-04-12T22:50:03Z",
-    "payment_status": "",
-    "payment_mode": "online",
-    "payment_id": "pay_Sckh5wSruAcw4i",
-    "payment_date": "2026-04-12T22:50:03Z",
-    "timestamp": "2026-04-12T22:50:03Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 8,
-  "fields": {
-    "user": 17,
-    "product": 3,
-    "TotalAmount": "1497.00",
-    "order_date": "2026-04-12T23:53:40Z",
-    "payment_status": "",
-    "payment_mode": "online",
-    "payment_id": "pay_SclmGNlAZwIulL",
-    "payment_date": "2026-04-12T23:53:40Z",
-    "timestamp": "2026-04-12T23:53:40Z"
-  }
-},
-{
-  "model": "myadmin.order_table",
-  "pk": 9,
-  "fields": {
-    "user": 30,
-    "product": 4,
-    "TotalAmount": "5400.00",
-    "order_date": "2026-04-13T01:01:31Z",
-    "payment_status": "",
-    "payment_mode": "online",
-    "payment_id": "pay_ScmvtyWSZCLwiN",
-    "payment_date": "2026-04-13T01:01:31Z",
-    "timestamp": "2026-04-13T01:01:31Z"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 1,
-  "fields": {
-    "user": 2,
-    "pet_name": "shiro",
-    "breed": "Labrador Retriever",
-    "age": 5,
-    "weight": "12.0",
-    "gender": "male",
-    "pet_image": "pet/shiro.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 2,
-  "fields": {
-    "user": 1,
-    "pet_name": "bruno",
-    "breed": "Rottweiler",
-    "age": 8,
-    "weight": "20.0",
-    "gender": "male",
-    "pet_image": "pet/bruno.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 3,
-  "fields": {
-    "user": 4,
-    "pet_name": "Tyson",
-    "breed": "Golden Retriever",
-    "age": 8,
-    "weight": "15.0",
-    "gender": "male",
-    "pet_image": "pet/tyson.jpeg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 4,
-  "fields": {
-    "user": 3,
-    "pet_name": "Bella",
-    "breed": "Pomeranian",
-    "age": 6,
-    "weight": "10.0",
-    "gender": "female",
-    "pet_image": "pet/bella.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 5,
-  "fields": {
-    "user": 2,
-    "pet_name": "pluto",
-    "breed": "beagle",
-    "age": 7,
-    "weight": "18.0",
-    "gender": "male",
-    "pet_image": "pet/pluto.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 6,
-  "fields": {
-    "user": 10,
-    "pet_name": "dcd",
-    "breed": "vfes",
-    "age": 5,
-    "weight": "10.0",
-    "gender": "male",
-    "pet_image": "pets/34.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 7,
-  "fields": {
-    "user": 10,
-    "pet_name": "pizza",
-    "breed": "jsnsn",
-    "age": 5,
-    "weight": "15.0",
-    "gender": "male",
-    "pet_image": "pets/bella.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 11,
-  "fields": {
-    "user": 10,
-    "pet_name": "njan",
-    "breed": "njnj",
-    "age": 7,
-    "weight": "10.0",
-    "gender": "male",
-    "pet_image": "pets/35.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 12,
-  "fields": {
-    "user": 10,
-    "pet_name": "jnjn",
-    "breed": "jj",
-    "age": 10,
-    "weight": "12.0",
-    "gender": "male",
-    "pet_image": "pets/34_r3bRU7n.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 13,
-  "fields": {
-    "user": 13,
-    "pet_name": "Rocky",
-    "breed": "Labrador",
-    "age": 3,
-    "weight": "45.0",
-    "gender": "male",
-    "pet_image": "pets/34_DiwB9FP.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 15,
-  "fields": {
-    "user": 14,
-    "pet_name": "shiro",
-    "breed": "labra",
-    "age": 1,
-    "weight": "20.0",
-    "gender": "male",
-    "pet_image": "pets/35_vf9Br7c.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 16,
-  "fields": {
-    "user": 14,
-    "pet_name": "shiro",
-    "breed": "labra",
-    "age": 1,
-    "weight": "20.0",
-    "gender": "male",
-    "pet_image": "pets/35_UC6rcjc.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 17,
-  "fields": {
-    "user": 15,
-    "pet_name": "Tom",
-    "breed": "husky",
-    "age": 8,
-    "weight": "15.0",
-    "gender": "male",
-    "pet_image": "pets/35_WWyLCNT.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 18,
-  "fields": {
-    "user": 17,
-    "pet_name": "janjnj",
-    "breed": "nn",
-    "age": 5,
-    "weight": "10.0",
-    "gender": "male",
-    "pet_image": "pets/35_4P28pK6.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 19,
-  "fields": {
-    "user": 17,
-    "pet_name": "shha",
-    "breed": "hbhb",
-    "age": 5,
-    "weight": "10.0",
-    "gender": "male",
-    "pet_image": "pets/35_iSPk0dK.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 20,
-  "fields": {
-    "user": 26,
-    "pet_name": "Tom",
-    "breed": "labrador",
-    "age": 5,
-    "weight": "10.0",
-    "gender": "male",
-    "pet_image": "pets/41.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 21,
-  "fields": {
-    "user": 26,
-    "pet_name": "voodoo",
-    "breed": "husky",
-    "age": 8,
-    "weight": "15.0",
-    "gender": "male",
-    "pet_image": "pets/37.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 22,
-  "fields": {
-    "user": 27,
-    "pet_name": "shiro",
-    "breed": "labra",
-    "age": 1,
-    "weight": "20.0",
-    "gender": "male",
-    "pet_image": "pets/34_Xd2wnTn.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 23,
-  "fields": {
-    "user": 17,
-    "pet_name": "shiro",
-    "breed": "jh",
-    "age": 5,
-    "weight": "5.0",
-    "gender": "male",
-    "pet_image": "pets/42.webp"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 24,
-  "fields": {
-    "user": 17,
-    "pet_name": "shiro",
-    "breed": "labra",
-    "age": 5,
-    "weight": "10.0",
-    "gender": "male",
-    "pet_image": "pets/dog-puppy-on-garden-royalty-free-image-1586966191_1.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 25,
-  "fields": {
-    "user": 30,
-    "pet_name": "leo",
-    "breed": "German shepherd",
-    "age": 11,
-    "weight": "20.0",
-    "gender": "male",
-    "pet_image": "pets/202105German-Shepherd-1358309706-scaled-1_1.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 26,
-  "fields": {
-    "user": 30,
-    "pet_name": "rocky",
-    "breed": "Indian pariah",
-    "age": 10,
-    "weight": "18.0",
-    "gender": "male",
-    "pet_image": "pets/street_dog_5.jpg"
-  }
-},
-{
-  "model": "myadmin.pet",
-  "pk": 27,
-  "fields": {
-    "user": 30,
-    "pet_name": "lily",
-    "breed": "golden retriever",
-    "age": 5,
-    "weight": "10.0",
-    "gender": "female",
-    "pet_image": "pets/dog-puppy-on-garden-royalty-free-image-1586966191_1_JkVLOrL.jpg"
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 1,
-  "fields": {
-    "pet": 4,
-    "disease": "Skin Allergy",
-    "allergies": "Dust",
-    "description": "Bella shows mild itching and redness on the skin. Condition is stable with medication.",
-    "medicine": "Apoquel 5.4mg",
-    "last_vaccination": "2025-11-01",
-    "next_vaccination": "2026-11-01",
-    "vaccine_name": "Anti-Rabies",
-    "reminder_status": "pending"
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 2,
-  "fields": {
-    "pet": 2,
-    "disease": "Tick Fever",
-    "allergies": null,
-    "description": "High fever and lethargy observed",
-    "medicine": "Doxycycline",
-    "last_vaccination": "2025-12-16",
-    "next_vaccination": "2026-03-16",
-    "vaccine_name": "DHPPi",
-    "reminder_status": "pending"
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 3,
-  "fields": {
-    "pet": 1,
-    "disease": "Ear Infection",
-    "allergies": "Food allergy",
-    "description": "Ear redness and discharge",
-    "medicine": "Otomax Drops",
-    "last_vaccination": "2026-02-06",
-    "next_vaccination": "2026-10-06",
-    "vaccine_name": "Bordetella",
-    "reminder_status": "pending"
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 4,
-  "fields": {
-    "pet": 5,
-    "disease": "Worm Infection",
-    "allergies": "None",
-    "description": "Weight loss and dull coat",
-    "medicine": "Drontal Plus",
-    "last_vaccination": "2025-08-05",
-    "next_vaccination": "2026-08-05",
-    "vaccine_name": "Deworming",
-    "reminder_status": "pending"
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 8,
-  "fields": {
-    "pet": 11,
-    "disease": "b  bhb",
-    "allergies": "bhh",
-    "description": "njnjn",
-    "medicine": "hnhn",
-    "last_vaccination": "2025-02-05",
-    "next_vaccination": "2025-08-12",
-    "vaccine_name": "njnj",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 9,
-  "fields": {
-    "pet": 12,
-    "disease": "j,",
-    "allergies": "mk",
-    "description": "hbghbh",
-    "medicine": "mm",
-    "last_vaccination": "2025-05-06",
-    "next_vaccination": "2026-08-02",
-    "vaccine_name": "mm,",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 10,
-  "fields": {
-    "pet": 13,
-    "disease": "kennel cough",
-    "allergies": "stuffy nose",
-    "description": "abc",
-    "medicine": "abc",
-    "last_vaccination": "2026-01-01",
-    "next_vaccination": "2026-06-01",
-    "vaccine_name": "abc",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 11,
-  "fields": {
-    "pet": 15,
-    "disease": "Ear Infection",
-    "allergies": "dust",
-    "description": "ear infection",
-    "medicine": "apoquel",
-    "last_vaccination": "2026-01-12",
-    "next_vaccination": "2027-01-11",
-    "vaccine_name": "dcpp",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 12,
-  "fields": {
-    "pet": 17,
-    "disease": "ear infection",
-    "allergies": "dust",
-    "description": "my dog has ear infection",
-    "medicine": "himpyrin",
-    "last_vaccination": "2025-08-12",
-    "next_vaccination": "2026-08-12",
-    "vaccine_name": "rabies",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 13,
-  "fields": {
-    "pet": 19,
-    "disease": "hjsjnjs",
-    "allergies": "jnjn",
-    "description": "kmjkm",
-    "medicine": "njnjnj",
-    "last_vaccination": "2025-02-15",
-    "next_vaccination": "2026-02-15",
-    "vaccine_name": "jnnjnj",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 14,
-  "fields": {
-    "pet": 20,
-    "disease": "skin infection",
-    "allergies": "dust",
-    "description": "Dog had vomiting and diarrhea caused by canine infection",
-    "medicine": "cefpodoxime",
-    "last_vaccination": "2025-02-12",
-    "next_vaccination": "2025-02-12",
-    "vaccine_name": "parvorirus",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 15,
-  "fields": {
-    "pet": 21,
-    "disease": "gastrontretitis",
-    "allergies": "chicken",
-    "description": "he has fever",
-    "medicine": "metronidazole",
-    "last_vaccination": "2025-08-09",
-    "next_vaccination": "2026-08-09",
-    "vaccine_name": "dhpp vaccine",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 16,
-  "fields": {
-    "pet": 22,
-    "disease": "Ticks",
-    "allergies": "polien",
-    "description": "muscle pain",
-    "medicine": "doxycycline",
-    "last_vaccination": "2025-08-13",
-    "next_vaccination": "2026-08-14",
-    "vaccine_name": "DHPP vaccine",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 17,
-  "fields": {
-    "pet": 25,
-    "disease": "skin infection",
-    "allergies": "dust",
-    "description": "mild skin irritation on paws",
-    "medicine": "itraxonazole",
-    "last_vaccination": "2025-05-12",
-    "next_vaccination": "2026-05-12",
-    "vaccine_name": "rabies",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.pethealth",
-  "pk": 18,
-  "fields": {
-    "pet": 26,
-    "disease": "ear  infection",
-    "allergies": "none",
-    "description": "ear redness and wax buildup",
-    "medicine": "ofloxcin drops",
-    "last_vaccination": "2025-06-19",
-    "next_vaccination": "2026-06-19",
-    "vaccine_name": "distemper",
-    "reminder_status": null
-  }
-},
-{
-  "model": "myadmin.passwordresettoken",
-  "pk": 1,
-  "fields": {
-    "user": 9,
-    "token": "2681cf06-8607-4812-b7c5-18fca421202a",
-    "created_at": "2026-03-02T03:50:41.846Z"
-  }
-},
-{
-  "model": "myadmin.passwordresettoken",
-  "pk": 2,
-  "fields": {
-    "user": 9,
-    "token": "92d82051-a771-4a60-9352-6eee8ec063b1",
-    "created_at": "2026-03-02T03:54:48.932Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 1,
-  "fields": {
-    "user": 1,
-    "pet": 1,
-    "shelter": 2,
-    "price_per_day": "0.00",
-    "total_amount": "0.00",
-    "start_date": "2026-01-04",
-    "end_date": "2026-01-15",
-    "boarding_status": "approved",
-    "timestamp": "2026-02-02T11:33:39Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 2,
-  "fields": {
-    "user": 2,
-    "pet": 2,
-    "shelter": 5,
-    "price_per_day": "0.00",
-    "total_amount": "0.00",
-    "start_date": "2025-12-01",
-    "end_date": "2025-12-31",
-    "boarding_status": "approved",
-    "timestamp": "2026-02-02T11:33:39Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 3,
-  "fields": {
-    "user": 3,
-    "pet": 3,
-    "shelter": 4,
-    "price_per_day": "0.00",
-    "total_amount": "0.00",
-    "start_date": "2026-01-18",
-    "end_date": "2026-01-20",
-    "boarding_status": "approved",
-    "timestamp": "2026-02-02T11:34:50Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 4,
-  "fields": {
-    "user": 4,
-    "pet": 4,
-    "shelter": 3,
-    "price_per_day": "0.00",
-    "total_amount": "0.00",
-    "start_date": "2026-02-01",
-    "end_date": "2026-02-04",
-    "boarding_status": "approved",
-    "timestamp": "2026-02-02T11:34:50Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 5,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 1,
-    "price_per_day": "0.00",
-    "total_amount": "0.00",
-    "start_date": "2026-03-19",
-    "end_date": "2026-03-21",
-    "boarding_status": "cancelled",
-    "timestamp": "2026-03-19T10:22:51Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 6,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 2,
-    "price_per_day": "900.00",
-    "total_amount": "1800.00",
-    "start_date": "2026-03-22",
-    "end_date": "2026-03-23",
-    "boarding_status": "approved",
-    "timestamp": "2026-03-21T05:23:11Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 7,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 2,
-    "price_per_day": "900.00",
-    "total_amount": "1800.00",
-    "start_date": "2026-03-22",
-    "end_date": "2026-03-23",
-    "boarding_status": "approved",
-    "timestamp": "2026-03-21T22:08:36Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 8,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 8,
-    "price_per_day": "500.00",
-    "total_amount": "1000.00",
-    "start_date": "2026-03-26",
-    "end_date": "2026-03-27",
-    "boarding_status": "approved",
-    "timestamp": "2026-03-26T16:45:39Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 9,
-  "fields": {
-    "user": 26,
-    "pet": 20,
-    "shelter": 1,
-    "price_per_day": "1200.00",
-    "total_amount": "2400.00",
-    "start_date": "2026-03-27",
-    "end_date": "2026-03-28",
-    "boarding_status": "pending",
-    "timestamp": "2026-03-27T06:44:20Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 10,
-  "fields": {
-    "user": 26,
-    "pet": 21,
-    "shelter": 1,
-    "price_per_day": "1200.00",
-    "total_amount": "2400.00",
-    "start_date": "2026-03-28",
-    "end_date": "2026-03-29",
-    "boarding_status": "pending",
-    "timestamp": "2026-03-27T06:54:46Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 11,
-  "fields": {
-    "user": 26,
-    "pet": 20,
-    "shelter": 9,
-    "price_per_day": "50.00",
-    "total_amount": "100.00",
-    "start_date": "2026-03-28",
-    "end_date": "2026-03-29",
-    "boarding_status": "approved",
-    "timestamp": "2026-03-27T07:05:14Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 12,
-  "fields": {
-    "user": 26,
-    "pet": 20,
-    "shelter": 9,
-    "price_per_day": "50.00",
-    "total_amount": "200.00",
-    "start_date": "2026-03-28",
-    "end_date": "2026-03-31",
-    "boarding_status": "pending",
-    "timestamp": "2026-03-27T07:08:40Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 13,
-  "fields": {
-    "user": 26,
-    "pet": 20,
-    "shelter": 1,
-    "price_per_day": "1200.00",
-    "total_amount": "2400.00",
-    "start_date": "2026-03-27",
-    "end_date": "2026-03-28",
-    "boarding_status": "pending",
-    "timestamp": "2026-03-27T07:45:17Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 14,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 2,
-    "price_per_day": "900.00",
-    "total_amount": "1800.00",
-    "start_date": "2026-04-10",
-    "end_date": "2026-04-11",
-    "boarding_status": "pending",
-    "timestamp": "2026-04-09T06:00:30Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 15,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 4,
-    "price_per_day": "1300.00",
-    "total_amount": "2600.00",
-    "start_date": "2026-04-11",
-    "end_date": "2026-04-12",
-    "boarding_status": "pending",
-    "timestamp": "2026-04-11T07:33:06Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 16,
-  "fields": {
-    "user": 17,
-    "pet": 18,
-    "shelter": 1,
-    "price_per_day": "1200.00",
-    "total_amount": "9600.00",
-    "start_date": "2025-12-25",
-    "end_date": "2026-01-01",
-    "boarding_status": "pending",
-    "timestamp": "2026-04-12T08:24:03Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 17,
-  "fields": {
-    "user": 30,
-    "pet": 25,
-    "shelter": 10,
-    "price_per_day": "500.00",
-    "total_amount": "2500.00",
-    "start_date": "2026-04-12",
-    "end_date": "2026-04-18",
-    "boarding_status": "approved",
-    "timestamp": "2026-04-13T00:26:54Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 18,
-  "fields": {
-    "user": 30,
-    "pet": 26,
-    "shelter": 10,
-    "price_per_day": "500.00",
-    "total_amount": "2500.00",
-    "start_date": "2026-04-14",
-    "end_date": "2026-04-18",
-    "boarding_status": "approved",
-    "timestamp": "2026-04-13T00:52:19Z"
-  }
-},
-{
-  "model": "myadmin.boardingrequest",
-  "pk": 19,
-  "fields": {
-    "user": 30,
-    "pet": 25,
-    "shelter": 10,
-    "price_per_day": "500.00",
-    "total_amount": "1000.00",
-    "start_date": "2026-04-28",
-    "end_date": "2026-04-29",
-    "boarding_status": "pending",
-    "timestamp": "2026-04-13T00:53:46Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 1,
-  "fields": {
-    "request": 1,
-    "user": 1,
-    "shelter": 2,
-    "amount": "13500.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-01-01T11:38:19Z",
-    "timestamp": "2026-02-02T11:42:18Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 2,
-  "fields": {
-    "request": 2,
-    "user": 2,
-    "shelter": 5,
-    "amount": "26350.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2025-12-01T11:39:08Z",
-    "timestamp": "2026-02-02T11:42:18Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 3,
-  "fields": {
-    "request": 3,
-    "user": 3,
-    "shelter": 4,
-    "amount": "3900.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-01-18T11:39:08Z",
-    "timestamp": "2026-02-02T11:42:18Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 4,
-  "fields": {
-    "request": 4,
-    "user": 4,
-    "shelter": 3,
-    "amount": "6000.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-02-01T11:42:30Z",
-    "timestamp": "2026-02-02T11:43:01Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 5,
-  "fields": {
-    "request": 8,
-    "user": 17,
-    "shelter": 8,
-    "amount": "1000.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-03-26T19:50:25Z",
-    "timestamp": "2026-03-26T19:50:25Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 6,
-  "fields": {
-    "request": 11,
-    "user": 26,
-    "shelter": 9,
-    "amount": "100.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-03-27T07:08:09Z",
-    "timestamp": "2026-03-27T07:08:09Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 7,
-  "fields": {
-    "request": 7,
-    "user": 17,
-    "shelter": 2,
-    "amount": "1800.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-04-10T22:20:23Z",
-    "timestamp": "2026-04-10T22:20:23Z"
-  }
-},
-{
-  "model": "myadmin.shelterpayment",
-  "pk": 8,
-  "fields": {
-    "request": 17,
-    "user": 30,
-    "shelter": 10,
-    "amount": "2500.00",
-    "payment_mode": "online",
-    "payment_status": "completed",
-    "payment_date": "2026-04-13T00:53:22Z",
-    "timestamp": "2026-04-13T00:53:22Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 1,
-  "fields": {
-    "order": 1,
-    "product": 1,
-    "quantity": 3,
-    "unit_price": "800.00",
-    "subtotal": "2400.00",
-    "total_amount": "2400.00",
-    "timestamp": "2026-02-02T11:48:34Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 2,
-  "fields": {
-    "order": 2,
-    "product": 3,
-    "quantity": 1,
-    "unit_price": "799.00",
-    "subtotal": "799.00",
-    "total_amount": "799.00",
-    "timestamp": "2026-02-02T11:48:34Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 3,
-  "fields": {
-    "order": 3,
-    "product": 2,
-    "quantity": 2,
-    "unit_price": "2800.00",
-    "subtotal": "2800.00",
-    "total_amount": "2800.00",
-    "timestamp": "2026-02-02T11:49:20Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 4,
-  "fields": {
-    "order": 4,
-    "product": 1,
-    "quantity": 1,
-    "unit_price": "799.98",
-    "subtotal": "799.98",
-    "total_amount": "799.98",
-    "timestamp": "2026-03-22T10:43:25Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 5,
-  "fields": {
-    "order": 5,
-    "product": 1,
-    "quantity": 1,
-    "unit_price": "799.98",
-    "subtotal": "799.98",
-    "total_amount": "799.98",
-    "timestamp": "2026-03-27T00:03:37Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 6,
-  "fields": {
-    "order": 5,
-    "product": 4,
-    "quantity": 1,
-    "unit_price": "1800.00",
-    "subtotal": "1800.00",
-    "total_amount": "1800.00",
-    "timestamp": "2026-03-27T00:03:37Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 7,
-  "fields": {
-    "order": 6,
-    "product": 1,
-    "quantity": 1,
-    "unit_price": "799.98",
-    "subtotal": "799.98",
-    "total_amount": "799.98",
-    "timestamp": "2026-03-27T06:56:08Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 8,
-  "fields": {
-    "order": 6,
-    "product": 3,
-    "quantity": 1,
-    "unit_price": "499.00",
-    "subtotal": "499.00",
-    "total_amount": "499.00",
-    "timestamp": "2026-03-27T06:56:08Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 9,
-  "fields": {
-    "order": 6,
-    "product": 4,
-    "quantity": 1,
-    "unit_price": "1800.00",
-    "subtotal": "1800.00",
-    "total_amount": "1800.00",
-    "timestamp": "2026-03-27T06:56:08Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 10,
-  "fields": {
-    "order": 7,
-    "product": 4,
-    "quantity": 4,
-    "unit_price": "1800.00",
-    "subtotal": "7200.00",
-    "total_amount": "7200.00",
-    "timestamp": "2026-04-12T22:50:03Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 11,
-  "fields": {
-    "order": 8,
-    "product": 3,
-    "quantity": 3,
-    "unit_price": "499.00",
-    "subtotal": "1497.00",
-    "total_amount": "1497.00",
-    "timestamp": "2026-04-12T23:53:40Z"
-  }
-},
-{
-  "model": "myadmin.order_item",
-  "pk": 12,
-  "fields": {
-    "order": 9,
-    "product": 4,
-    "quantity": 3,
-    "unit_price": "1800.00",
-    "subtotal": "5400.00",
-    "total_amount": "5400.00",
-    "timestamp": "2026-04-13T01:01:31Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 1,
-  "fields": {
-    "user": 17,
-    "user_query": "hi",
-    "ai_response": "Hello! It’s a pleasure to meet you. \n\nAs a professional dog expert, I’m here to help you with anything related to our canine companions. Whether you have questions about a specific breed, need advice on behavior and training, or want tips on nutrition and health, I’ve got you covered.\n\n**How can I help you and your four-legged friend today?** Here are a few things we could discuss:\n\n*   **Training & Behavior:** From potty training a new puppy to managing separation anxiety or leash pulling.\n*   **Breed Selection:** Finding the perfect dog to match your lifestyle.\n*   **Health & Wellness:** Advice on diet, exercise needs, or spotting common health issues.\n*   **Fun & Enrichment:** Best toys, games, and mental stimulation for your pup.\n\nWhat’s on your mind?",
-    "timestamp": "2026-03-23T13:46:53.596Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 2,
-  "fields": {
-    "user": 17,
-    "user_query": "my dog has fever what should I do",
-    "ai_response": "As a professional dog expert, I must start with a critical disclaimer: **A fever in a dog can be a sign of a serious underlying infection or inflammatory condition. If your dog’s temperature is 103°F (39.4°C) or higher, you should contact your veterinarian immediately.**\n\nA dog's normal body temperature is between **101°F and 102.5°F (38.3°C to 39.2°C)**. If it reaches **106°F**, it is a life-threatening emergency that can lead to internal organ damage.\n\nHere is exactly what you should do right now:\n\n### 1. Confirm the Fever\nYou cannot tell if a dog has a fever just by feeling their nose. While warm ears and red eyes are indicators, the only way to be sure is with a **rectal thermometer** (digital is easiest). \n*   Use a lubricant (like petroleum jelly).\n*   Gently insert the thermometer about one inch into the rectum.\n*   If the reading is above 103°F, they have a fever.\n\n### 2. Help Cool Them Down (Safely)\nDo not try to \"shock\" their system. The goal is a gradual cooling.\n*   **Use Lukewarm Water:** Apply cool (not ice-cold) water to their fur, focusing on the **paws and ears**.\n*   **Use a Fan:** Place the dog in front of a fan while their coat is damp to help with evaporative cooling.\n*   **Stop at 103°F:** Once their temperature drops to 103°F, stop the cooling process. You don't want them to become hypothermic.\n\n### 3. Encourage Hydration\nOffer small amounts of fresh, cool water frequently. Do not force-feed water with a syringe, as this can lead to aspiration (water in the lungs). If they won’t drink, this is a sign that medical intervention (IV fluids) is necessary.\n\n### 4. What NOT to do (Very Important)\n*   **NEVER give human medication:** Do not give your dog Tylenol (Acetaminophen), Advil (Ibuprofen), or Aspirin. These are **highly toxic** to dogs and can cause liver failure or fatal stomach ulcers.\n*   **Do not use ice baths:** Extremely cold water can cause the blood vessels to constrict, which actually traps heat inside the body and makes the fever worse.\n\n### 5. Monitor for Other Symptoms\nA fever is rarely a standalone issue. Look for:\n*   Lethargy or shivering.\n*   Loss of appetite.\n*   Vomiting or diarrhea.\n*   Coughing or nasal discharge.\n*   Decreased activity.\n\n### When to go to the Vet Immediately:\n*   The temperature is **above 104.5°F**.\n*   The fever does not break within a few hours of home cooling.\n*   The dog is lethargic, won't eat, or is acting disoriented.\n*   You suspect they ingested something toxic (antifreeze, toxic plants, etc.).\n\n**Summary for the Expert Perspective:** \nA fever is the body’s way of fighting infection or inflammation. While you can provide temporary comfort at home, a vet needs to diagnose *why* the fever is happening. It could be anything from a simple ear infection to a tick-borne illness or an immune-mediated disease. **Call your vet now to report the temperature and ask for an urgent appointment.**",
-    "timestamp": "2026-03-23T13:47:35.455Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 3,
-  "fields": {
-    "user": 17,
-    "user_query": "how many tails does the dog have?",
-    "ai_response": "As a professional dog expert, I can confirm that a standard, healthy dog has **one tail**.\n\nBiologically, the tail is an extension of the dog's vertebral column. It is made up of a varying number of small bones called **caudal vertebrae** (usually between 5 and 20), along with muscles, nerves, and skin.\n\nHere are a few expert insights regarding the dog's tail:\n\n1.  **Purpose:** The tail is not just for show. It is a vital tool for **balance** (especially when turning at high speeds) and a primary means of **communication** (conveying emotions like happiness, aggression, or fear).\n2.  **Variations:** While every dog is born with one tail, the appearance varies wildly by breed. Some are long and plumed (like a Golden Retriever), some are tightly curled (like a Pug), and some are naturally \"bobbed\" or very short due to genetics (like the Australian Stumpy Tail Cattle Dog).\n3.  **Medical Anomalies:** In extremely rare cases of genetic mutation or developmental abnormalities (such as *polymelia*), a dog could technically be born with an extra appendage that resembles a tail, but this is considered a rare medical deformity and is not a natural trait of any breed.\n\n**In short: One dog, one tail.**",
-    "timestamp": "2026-03-23T13:48:10.964Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 4,
-  "fields": {
-    "user": 17,
-    "user_query": "hi",
-    "ai_response": "Hello there! It’s a pleasure to meet you.\n\nAs a professional dog expert, I’m here to help you with all things canine. Whether you have questions about puppy training, understanding complex behaviors, choosing the right breed for your lifestyle, or looking for tips on health and nutrition, I’ve got you covered.\n\nHow can I assist you and your four-legged friend today?",
-    "timestamp": "2026-03-24T07:42:56.950Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 5,
-  "fields": {
-    "user": 17,
-    "user_query": "my dog has fever what should I do",
-    "ai_response": "As a professional dog expert, I must emphasize that a fever in a dog is often a sign of an underlying infection, inflammation, or ingestion of a toxin. Because dogs’ bodies are different from ours, a fever can become dangerous very quickly.\n\nHere is a step-by-step guide on what you should do right now:\n\n### 1. Confirm the Temperature\nYou cannot accurately judge a dog's temperature by feeling their nose or ears. You must use a thermometer (rectal is most accurate, but a specialized pet ear thermometer can work).\n*   **Normal range:** 101.0°F to 102.5°F (38.3°C to 39.2°C).\n*   **Fever:** Anything over **103°F (39.4°C)**.\n*   **Emergency:** Anything over **106°F (41.1°C)** is a life-threatening emergency that can lead to organ failure.\n\n### 2. Immediate \"Do’s\" (How to Cool Them Safely)\nIf your dog has a moderate fever, you can try to lower their temperature safely while you prepare to contact a vet:\n*   **Apply Cool Water:** Use a cloth soaked in **lukewarm to cool water** (never ice-cold) and apply it to their paws, ears, and chest. \n*   **Use a Fan:** Place the dog in front of a fan while their fur is damp to help with evaporative cooling.\n*   **Offer Water:** Encourage them to drink small amounts of water, but do not force-feed liquids, as they could inhale them into their lungs.\n*   **Monitor:** Once their temperature drops to **103°F**, stop the cooling process so they don’t become too cold or go into shock.\n\n### 3. The \"Absolute Don'ts\" (Critical)\n*   **NEVER give human medication:** Do not give your dog Tylenol (Acetaminophen), Advil (Ibuprofen), or Aspirin. These are **highly toxic** to dogs and can cause fatal liver failure or stomach ulcers.\n*   **Do not use ice or ice-cold water:** This can cause the blood vessels to constrict, which actually traps heat inside the body and makes the fever worse.\n\n### 4. When to See a Veterinarian\n**A fever should always be taken seriously.** You should call a vet immediately if:\n*   The temperature is **103°F or higher**.\n*   The fever lasts for more than 24 hours.\n*   The fever is accompanied by other symptoms like lethargy, vomiting, diarrhea, loss of appetite, or shivering.\n*   The dog’s gums are very red or very pale.\n\n### 5. Potential Causes to Consider\nWhen you speak to the vet, be ready to mention if your dog has:\n*   Had a recent vaccination (mild fevers are common for 24–48 hours after shots).\n*   Been bitten by a tick.\n*   Eaten something unusual (toxins).\n*   An obvious injury or wound that looks red/swollen (abscess).\n\n**The Bottom Line:** If your dog’s temperature is above 103°F, please call your veterinarian or a local emergency animal clinic now. A fever is a symptom, not a disease; a professional needs to find the \"why\" behind the heat.",
-    "timestamp": "2026-03-24T07:43:20.837Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 6,
-  "fields": {
-    "user": 17,
-    "user_query": "Dhpp vaccine",
-    "ai_response": "As a professional dog expert, I can tell you that the **DHPP vaccine** is considered the \"core\" foundation of canine preventative health. Often referred to as the \"distemper shot,\" it is actually a 5-in-1 (or 4-in-1) combination vaccine that protects against four highly contagious and potentially fatal diseases.\n\nHere is a comprehensive breakdown of what the DHPP vaccine covers, the schedule for administration, and why it is essential.\n\n---\n\n### 1. What does DHPP stand for?\n\nEach letter represents a specific disease:\n\n*   **D – Distemper:** A severe viral disease that attacks the respiratory, gastrointestinal, and nervous systems. It is often fatal, and dogs that survive frequently suffer permanent neurological damage.\n*   **H – Infectious Canine Hepatitis (Adenovirus Type 1):** This virus targets the liver, kidneys, and lungs. It can cause everything from mild symptoms to sudden death.\n*   **P – Parainfluenza:** A highly contagious respiratory virus. While not usually fatal on its own, it is a primary contributor to \"Kennel Cough\" and can lead to pneumonia.\n*   **P – Parvovirus:** This is perhaps the most feared by owners. It is an extremely hardy virus that causes severe vomiting and bloody diarrhea. Without intensive treatment, the mortality rate is over 90% in puppies.\n\n*Note: You may also see this listed as **DAPP**, where the \"A\" stands for Adenovirus (the cause of Hepatitis).*\n\n---\n\n### 2. The Vaccination Schedule\n\nBecause puppies have \"maternal antibodies\" from their mother's milk that can interfere with vaccines, they require a series of shots to ensure their own immune system takes over.\n\n*   **Puppy Series:**\n    *   **6–8 weeks:** First dose\n    *   **10–12 weeks:** Second dose\n    *   **14–16 weeks:** Third (and usually final) puppy dose\n*   **Adult Boosters:**\n    *   A booster is given **one year** after the final puppy dose.\n    *   After that, the American Animal Hospital Association (AAHA) guidelines generally recommend a booster **every 3 years**.\n\n---\n\n### 3. Why is it \"Core\"?\n\nIn the veterinary world, vaccines are categorized as **Core** or **Non-Core**. \n*   **Core vaccines** (like DHPP and Rabies) are recommended for *every* dog, regardless of location or lifestyle, because the diseases are widespread and dangerous.\n*   **Non-core vaccines** (like Lyme, Lepto, or Bordetella) are recommended based on your dog's specific risk factors (e.g., hiking in woods, going to daycare).\n\n---\n\n### 4. Side Effects and Safety\n\nLike any medical procedure, there can be side effects, though they are usually mild:\n*   **Common:** Lethargy, mild fever, or slight soreness/swelling at the injection site for 24–48 hours.\n*   **Rare (Emergency):** Anaphylactic reactions (hives, facial swelling, vomiting, or difficulty breathing). If these occur, contact a vet immediately.\n\n---\n\n### 5. Expert Tips for Owners\n\n1.  **The \"Window of Vulnerability\":** Your puppy is not fully protected until about two weeks *after* their final 16-week shot. Avoid high-traffic dog areas (parks, pet stores) until this series is complete.\n2.  **Titer Testing:** If you are concerned about over-vaccinating an adult dog, you can ask your vet for a **titer test**. This is a blood test that measures the level of antibodies in your dog’s system to see if they still have immunity from their previous shots.\n3.  **Don't Skip the 1-Year Booster:** The booster given at one year of age is the most critical one, as it \"locks in\" the immunity established during the puppy stages.\n\n**The Bottom Line:** The DHPP vaccine is the single most effective way to prevent some of the most painful and expensive diseases in the canine world. It is the hallmark of responsible dog ownership.",
-    "timestamp": "2026-03-27T06:34:22.992Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 7,
-  "fields": {
-    "user": 17,
-    "user_query": "give informations about DHPP vaccine",
-    "ai_response": "As a professional dog expert, I can tell you that the **DHPP vaccine** is considered the \"core\" foundation of canine preventative health. It is often referred to as the \"distemper shot\" or the \"5-in-1\" vaccine because it protects against four highly contagious and potentially fatal diseases in one injection.\n\nHere is a comprehensive breakdown of what the DHPP vaccine covers, the recommended schedule, and why it is vital for your dog.\n\n---\n\n### 1. What does DHPP stand for?\n\nEach letter represents a specific disease the vaccine targets:\n\n*   **D – Distemper:** A severe viral disease that attacks the respiratory, gastrointestinal, and nervous systems. It is often fatal, and dogs that survive frequently suffer permanent neurological damage.\n*   **H – Hepatitis (Adenovirus Type 1):** This virus targets the liver, kidneys, spleen, and lungs. It can cause \"blue eye\" (corneal edema) and lead to liver failure. *Note: The vaccine also protects against Adenovirus Type 2, which is a contributor to kennel cough.*\n*   **P – Parainfluenza:** A highly contagious respiratory virus. While not usually fatal on its own, it weakens the immune system and is one of the primary causes of \"kennel cough.\"\n*   **P – Parvovirus:** A devastating and highly resilient virus that attacks the gastrointestinal tract and bone marrow. It causes severe vomiting and bloody diarrhea. Without treatment, the mortality rate is over 90%, particularly in puppies.\n\n---\n\n### 2. The Vaccination Schedule\n\nBecause puppies lose the immunity they get from their mother’s milk (maternal antibodies) at different rates, they require a series of boosters to ensure they are protected.\n\n*   **Puppy Series:**\n    *   **6–8 weeks:** First dose.\n    *   **10–12 weeks:** Second dose.\n    *   **14–16 weeks:** Third (and usually final puppy) dose. \n    *   *Note: Some vets recommend a 4th dose at 20 weeks for high-risk breeds or areas.*\n*   **Adult Booster:**\n    *   **1 Year after puppy series:** A \"bridge\" booster to solidify immunity.\n    *   **Every 3 Years:** Most modern veterinary protocols (AAHA guidelines) now recommend the DHPP booster every three years rather than annually, as the immunity for these specific viruses lasts a long time.\n\n---\n\n### 3. Why is it a \"Core\" Vaccine?\nThe American Animal Hospital Association (AAHA) classifies DHPP as **core**, meaning every dog, regardless of lifestyle or geographic location, should receive it. These viruses are hardy in the environment (Parvo can live in soil for years) and are easily transmitted through the air or by sniffing contaminated surfaces.\n\n---\n\n### 4. DHPP vs. DHLPP\nYou may hear your vet mention **DHLPP**. The \"L\" stands for **Leptospirosis**, a bacterial infection spread through the urine of wildlife (rats, raccoons, deer). \n*   **DHPP** is the standard core.\n*   **DHLPP** is recommended for dogs that spend time outdoors, near standing water, or in areas with high wildlife activity.\n\n---\n\n### 5. Potential Side Effects\nMost dogs handle the DHPP vaccine very well. However, like any medical procedure, there can be side effects:\n\n*   **Common/Mild (Normal):** Slight lethargy, mild fever, or a small, tender lump at the injection site for 24–48 hours.\n*   **Rare/Severe (Call a vet):** Hives, swelling of the face or muzzle, persistent vomiting, or difficulty breathing. These are signs of an allergic reaction (anaphylaxis).\n\n---\n\n### Expert Tip for Owners:\nIf you have a puppy that has not completed its full DHPP series (all three shots), **do not take them to dog parks, pet stores, or communal grassy areas.** Their immune system is not yet fully \"taught\" how to fight off Parvo or Distemper. Wait until 7–10 days after the *final* puppy shot before socializing in public spaces.\n\n**Always consult with your veterinarian to tailor the vaccination timing to your specific dog’s health and environment.**",
-    "timestamp": "2026-03-27T06:57:30.827Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 8,
-  "fields": {
-    "user": 17,
-    "user_query": "what's the weather like today?",
-    "ai_response": "As a professional dog expert, I don’t have access to your specific GPS coordinates to tell you exactly what’s happening outside your window right now. However, I can tell you exactly what the weather means for your dog and what you should be looking out for!\n\nIf you tell me your city or the current temperature, I can give you a specific \"Paws Report.\" In the meantime, here is my expert guide on how to read the weather through your dog’s eyes:\n\n### 1. If it's Sunny and Hot (above 75°F / 24°C)\n*   **The 7-Second Rule:** Place the back of your hand on the pavement. If you can’t hold it there for 7 seconds, it’s too hot for your dog’s paw pads. Stick to the grass!\n*   **Hydration:** Always carry a portable water bowl. Dogs don’t sweat like us; they pant to cool down, which uses up a lot of moisture.\n*   **Watch for Brachycephalic breeds:** Pugs, Bulldogs, and Frenchies struggle significantly more in the heat. Limit their outdoor time strictly.\n\n### 2. If it's Cold and Frosty (below 45°F / 7°C)\n*   **Check the Coat:** If you have a short-haired breed (like a Greyhound or Pitbull), it's \"sweater weather.\" If you have a Husky or a Samoyed, they are finally in their element!\n*   **Beware of Salt:** Cities often use salt or chemical de-icers on sidewalks. These can burn a dog’s paws or be toxic if licked off later. Always wipe their paws with a warm cloth when you get inside.\n\n### 3. If it's Raining\n*   **The \"Wet Dog\" Scent:** Keep a dedicated microfiber towel by the door. Drying them quickly prevents that damp smell and keeps their skin from getting irritated.\n*   **Fear of Thunder:** If the rain includes storms, watch for signs of anxiety (pacing, whining, hiding). This is a good time for indoor \"nose work\" games to distract them.\n\n### 4. If it's Windy\n*   **Scents are Flying:** Your dog’s nose is likely going into overdrive! Wind carries scents from miles away, which can make dogs more distracted or \"sniffy\" than usual on their walk.\n\n**What’s the temperature where you are?** Tell me your local conditions, and I'll tell you if it's a \"long hike\" day or a \"stay inside with a puzzle toy\" day!",
-    "timestamp": "2026-03-27T07:48:42.483Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 9,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "",
-    "timestamp": "2026-04-08T10:51:36.933Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 10,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "",
-    "timestamp": "2026-04-08T11:08:43.867Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 11,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "",
-    "timestamp": "2026-04-08T11:15:06.365Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 12,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "Sorry, I couldn't understand. Please try again.",
-    "timestamp": "2026-04-08T11:25:23.470Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 13,
-  "fields": {
-    "user": 17,
-    "user_query": "hi",
-    "ai_response": "Dog expert is resting ???? Try again.",
-    "timestamp": "2026-04-08T11:38:16.130Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 14,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "Dog expert is resting ???? Try again.",
-    "timestamp": "2026-04-08T11:38:26.998Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 15,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T11:44:08.205Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 16,
-  "fields": {
-    "user": 17,
-    "user_query": "dog health care tips",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T11:44:22.386Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 17,
-  "fields": {
-    "user": 17,
-    "user_query": "What is the best food for a Labrador puppy?",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T11:45:29.510Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 18,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T11:56:45.870Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 19,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T12:00:13.195Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 20,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T12:04:49.294Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 21,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T12:07:45.033Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 22,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T12:12:45.662Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 23,
-  "fields": {
-    "user": 17,
-    "user_query": "dog health care tips",
-    "ai_response": "AI didn't return any result ????",
-    "timestamp": "2026-04-08T12:16:03.440Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 24,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "API key not valid. Please pass a valid API key.",
-    "timestamp": "2026-04-08T12:28:31.884Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 25,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
-    "timestamp": "2026-04-08T12:41:20.953Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 26,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 52.135557509s.",
-    "timestamp": "2026-04-08T12:46:03.447Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 27,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 46.862084435s.",
-    "timestamp": "2026-04-08T13:26:08.707Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 28,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 41.637202s.",
-    "timestamp": "2026-04-08T13:34:13.932Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 29,
-  "fields": {
-    "user": 17,
-    "user_query": "rabbies vaccine",
-    "ai_response": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
-    "timestamp": "2026-04-08T13:51:21.818Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 30,
-  "fields": {
-    "user": 17,
-    "user_query": "Rabbies vaccine",
-    "ai_response": "Sorry, I couldn't get an answer right now. (models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.)",
-    "timestamp": "2026-04-08T16:17:47.801Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 31,
-  "fields": {
-    "user": 17,
-    "user_query": "Rabbies vaccine",
-    "ai_response": "Hello there! I'm happy to help you with information about the Rabies vaccine for dogs! ????\n\nThe Rabies vaccine is one of the most crucial and often legally mandated vaccinations for our canine companions. Rabies is a severe, viral disease that affects the brain and spinal cord, and it's almost always fatal once symptoms appear. It can be transmitted to humans and other animals through the bite of an infected animal.\n\nVaccinating your dog against rabies is vital for their health and for public safety. Most regions require dogs to be vaccinated against rabies by a certain age, with booster shots given periodically (typically every one or three years, depending on the vaccine type and local regulations). This vaccine provides strong protection, preventing the virus from developing if your dog is exposed.\n\nAlways ensure your dog's rabies vaccination is up-to-date and that you have proof of vaccination, as it's often required for licensing and travel.",
-    "timestamp": "2026-04-08T16:33:03.847Z"
-  }
-},
-{
-  "model": "myadmin.chathistory",
-  "pk": 32,
-  "fields": {
-    "user": 17,
-    "user_query": "RABBIES",
-    "ai_response": "Oh, rabies is a very serious topic for our furry friends, and it's great you're asking about it! ????\n\nRabies is a viral disease that affects the brain and spinal cord of mammals, including dogs and humans. It's most commonly transmitted through the bite of an infected animal, where the virus in their saliva enters the bloodstream. Once symptoms appear, rabies is almost always fatal. This makes prevention incredibly important!\n\nFor dogs, vaccination is the cornerstone of",
-    "timestamp": "2026-04-08T23:38:38.982Z"
-  }
-}
-]
+[
+{
+  "model": "myadmin.user",
+  "pk": 1,
+  "fields": {
+    "full_name": "shruti patel",
+    "email": "shruti57@gmail.com",
+    "contact": 9856789651,
+    "address": "House No. 45, Krishna Park Society,\r\nSatellite Road,\r\nAhmedabad Â– 380054,\r\nGujarat, India",
+    "username": "shruti_123",
+    "password": "patelshrut",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 2,
+  "fields": {
+    "full_name": "rohan shah",
+    "email": "rohan45@gmail.com",
+    "contact": 8567896589,
+    "address": "Flat No. 504, Shivalik Heights, located near ISKCON Cross Road on S.G. Highway, Ahmedabad, Gujarat.",
+    "username": "rohan_shah",
+    "password": "rshah_4512",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 3,
+  "fields": {
+    "full_name": "Diya mehta",
+    "email": "diya.125@gmail.com",
+    "contact": 8754234678,
+    "address": "Flat No. 302, Shree Residency\r\nNear Vastrapur Lake\r\nVastrapur, Ahmedabad Â– 380015\r\nGujarat, India",
+    "username": "d@125",
+    "password": "mehta@1256",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 4,
+  "fields": {
+    "full_name": "Viraj shah",
+    "email": "virajshah@gmail.com",
+    "contact": 7896452535,
+    "address": "Plot No. 45, Shantinagar Society\r\nNear Maninagar Railway Station\r\nManinagar East, Ahmedabad Â– 380008",
+    "username": "viraj@24",
+    "password": "virajsha.1",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 9,
+  "fields": {
+    "full_name": "vraj",
+    "email": "hkmodi2006@gmail.com",
+    "contact": 4546456565,
+    "address": "ejeej",
+    "username": "vraj08",
+    "password": "pbkdf2_sha256$1200000$c0YU9c1ZAgEQpNUssijfOs$LNAWyqFHWuSzFN5+T2zT3g3taScjU0MRLcEXWG35Nwg=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 10,
+  "fields": {
+    "full_name": "sakshi",
+    "email": "skmodi2005@gmail.com",
+    "contact": 4645655989,
+    "address": "kjjdijijd",
+    "username": "sakshi10",
+    "password": "pbkdf2_sha256$1200000$55a06temFZpkrtVQRw4Xsu$fTk5sMyQ2af3Tv18PUe865mSVvOl3MJC2KII8RcYKaU=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 11,
+  "fields": {
+    "full_name": "kaushik",
+    "email": "kr7271@gmail.com",
+    "contact": 9898310289,
+    "address": "sf 7 ashwamegh apartment, behind Durga school,maninagar",
+    "username": "kaushik04",
+    "password": "pbkdf2_sha256$1200000$04HTzUR3MyfhY0MnS4zJSw$+Xh1jGMQyn01iR4mbBKN9Wi9gBKYzCxQxpz8NugTpsU=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 12,
+  "fields": {
+    "full_name": "Jahanvi",
+    "email": "jahanvitewanitewani@gmail.com",
+    "contact": 7878555155,
+    "address": "Krishna apartment, naranura",
+    "username": "jahanvi_123",
+    "password": "pbkdf2_sha256$1200000$VrcBVqCiXtuJH2oXWPj8Jv$XxeMRZ1ldGmLrfbbDq4irE0Wcyh66qdh3SjFjyBAkVY=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 13,
+  "fields": {
+    "full_name": "atharv kusre",
+    "email": "kusre16@gmail.com",
+    "contact": 9407703713,
+    "address": "Bliss Homes3 PG,Ambavadi,Ahmedabad,Gujrat",
+    "username": "Atharv_Kusre",
+    "password": "pbkdf2_sha256$1200000$X074DFE2V8Q6nHBQlCuf9m$wC2e0kRQ3+09Ie31zwQVWhJJE7Z8gihLFoeCmGvxJdc=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 14,
+  "fields": {
+    "full_name": "Janvi Tewani",
+    "email": "janvi@gmail.com",
+    "contact": 7878555155,
+    "address": "naranpura, ahmedabad",
+    "username": "janvi_123",
+    "password": "pbkdf2_sha256$1200000$AOfWzXyVxTzrHy2ZwH5tZI$qmw4Skitpg0tXu+3Vy0m/USEKTxTyYsXQLsEfQbV6Xg=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 15,
+  "fields": {
+    "full_name": "aryan yadav",
+    "email": "aryan@gmail.com",
+    "contact": 9875697468,
+    "address": "shakti apartment near kankaria , maninagar",
+    "username": "aryan08",
+    "password": "pbkdf2_sha256$1200000$qIZaXzShzICEoFOhDzTTAS$XTYtzk4OD0q3nZPUAnmwnhsJehWTcsMCJXyujRkNJLE=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 16,
+  "fields": {
+    "full_name": "kashish tewani",
+    "email": "kashish@gmail.com",
+    "contact": 8475121041,
+    "address": "naranpura, ahmedabad",
+    "username": "kashish_123",
+    "password": "pbkdf2_sha256$1200000$aDctDOoPJ4qpNW67Qjkg1D$C307BK++6RCkbhiOjk9NUDmcmP/mQTel0u3qG1uffIM=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 17,
+  "fields": {
+    "full_name": "Rahul",
+    "email": "rahul@gmail.com",
+    "contact": 9595926225,
+    "address": "djnjdndndjnfnk",
+    "username": "rahulpatel",
+    "password": "pbkdf2_sha256$1200000$N7l8tAGhNkRrS7VFLmwi7m$g1dm0uhi5tr3sIoCsuZVYFwsSQy7dkE+ZL4H1z6GV64=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 25,
+  "fields": {
+    "full_name": "paw",
+    "email": "paw@gmail.com",
+    "contact": 5458484844,
+    "address": "jsbhs",
+    "username": "paw",
+    "password": "pbkdf2_sha256$720000$n8yvQ4buSehfdeKQEj2X4P$N7ne96VZzmsSGKRgkSG2E1GHd6H5t7P7ANzkm0Y2zts=",
+    "role": "shelter"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 26,
+  "fields": {
+    "full_name": "priya",
+    "email": "priya@gmail.com",
+    "contact": 7896581256,
+    "address": "sf 7,ashwameghapartment,behind Durga school",
+    "username": "priya@123",
+    "password": "pbkdf2_sha256$720000$6rQAljrhrqepjugdmD5ROb$c/GCpc8u+0BfVGaCbcYfx2S86GX/sMKx60QXO529mww=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 27,
+  "fields": {
+    "full_name": "vidhi lalwani",
+    "email": "vidhi@gmail.com",
+    "contact": 8745173151,
+    "address": "a/101, shantinagar society,naranpura, ahmedabad-380013",
+    "username": "vidhi_16",
+    "password": "pbkdf2_sha256$720000$iDiTIEu4x2Ce1uc9RFczuC$/4EhIwDh5lrf4QYykyP3wgMOHqukJ9twJjEuvbIQZk4=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 28,
+  "fields": {
+    "full_name": "dog health",
+    "email": "dog@gmail.com",
+    "contact": 9898854554,
+    "address": "near iskon temple",
+    "username": "doghealth",
+    "password": "pbkdf2_sha256$720000$W4hbQtp1gXYdRCDdWdHHhR$XTgeJygXOI1XOA208XipYaCH5EQumw7ejWclfJ9y0LM=",
+    "role": "shelter"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 30,
+  "fields": {
+    "full_name": "vivaan",
+    "email": "vivaan@gmail.com",
+    "contact": 8932561664,
+    "address": "Shakti aprtment near Mahadev mandir , maninagar",
+    "username": "vivaan08",
+    "password": "pbkdf2_sha256$720000$3vJhy0fOztlSZg3WKHnHFd$0HDdxkJdrpOqfVo42Wg5P5IsjD2DB/kvgGH+P8wQrTI=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 31,
+  "fields": {
+    "full_name": "care and cute pet home",
+    "email": "carecure@gmail.com",
+    "contact": 9622864988,
+    "address": "Prahladnagar",
+    "username": "carecure",
+    "password": "pbkdf2_sha256$720000$j6mD8ypjhTHW6zrOH5QpIp$dYcmRhKXXYMMTeMvn+cw8b72VpPd7Wb/aaJTflWRGn0=",
+    "role": "shelter"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 32,
+  "fields": {
+    "full_name": "nidhi",
+    "email": "nidhi@gmail.com",
+    "contact": 9822153464,
+    "address": "relief road, old city, ahmedabad",
+    "username": "nidhishah",
+    "password": "pbkdf2_sha256$720000$Nfy4kX2AGGORWzMjYjJ233$iAvv7YhgMFMoGiuXQJ+PM8TQ8QIVuPL7hrGpQl9WuPI=",
+    "role": "shelter"
+  }
+},
+{
+  "model": "myadmin.user",
+  "pk": 33,
+  "fields": {
+    "full_name": "sakshimodi",
+    "email": "sakshimodi103@gmail.com",
+    "contact": 9724699998,
+    "address": "Ashwamegh apartment,behind durga school, maninagar",
+    "username": "sakshi05",
+    "password": "pbkdf2_sha256$720000$Sx4NRriWZ7RohdLniNnbKk$DTZ7vl24a7C+jqS7IxGxy6E314zL2UoBsa+WIC7UsdI=",
+    "role": "user"
+  }
+},
+{
+  "model": "myadmin.feedback",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "ratings": 5,
+    "comments": "Great initiative by the admin. Happypaws is easy to use and very informative. The product section is also helpful and well managed.",
+    "timestamp": "2026-01-28T12:43:14Z"
+  }
+},
+{
+  "model": "myadmin.feedback",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "ratings": 4,
+    "comments": "Very helpful app. Easy to find nearby dog shelters",
+    "timestamp": "2026-02-02T07:33:37Z"
+  }
+},
+{
+  "model": "myadmin.feedback",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "ratings": 5,
+    "comments": "User-friendly app with all the important shelter details in one place.",
+    "timestamp": "2026-02-02T07:33:37Z"
+  }
+},
+{
+  "model": "myadmin.feedback",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "ratings": 3,
+    "comments": "Love that I can support shelters and shop for pet products in one app.",
+    "timestamp": "2026-02-02T07:35:14Z"
+  }
+},
+{
+  "model": "myadmin.feedback",
+  "pk": 5,
+  "fields": {
+    "user": 4,
+    "ratings": 4,
+    "comments": "Smooth experience with good shelter info and products.",
+    "timestamp": "2026-02-02T07:35:14Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 1,
+  "fields": {
+    "shelter_name": "Furry Friends Home",
+    "user": null,
+    "address1": "Near Civil Hospital",
+    "address2": "Block C, Campus Road",
+    "landmark": "Civil Hospital",
+    "city": "Ahmedabad",
+    "area": "Asarwa",
+    "pincode": "380016",
+    "price": "1200.00",
+    "contact": 8756478596,
+    "capacity": 100,
+    "available_slot_count": 15,
+    "timestamp": "2026-01-31T14:54:59Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 2,
+  "fields": {
+    "shelter_name": "Safe Tails Home",
+    "user": null,
+    "address1": "Near ISRO Colony",
+    "address2": "Lane 4, Satellite Road",
+    "landmark": "ISRO Colony",
+    "city": "Ahmedabad",
+    "area": "Satellite",
+    "pincode": "38001",
+    "price": "900.00",
+    "contact": 8578964235,
+    "capacity": 50,
+    "available_slot_count": 30,
+    "timestamp": "2026-02-02T11:29:58Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 3,
+  "fields": {
+    "shelter_name": "Paws & Care",
+    "user": null,
+    "address1": "Near Lake Garden",
+    "address2": "Lake View Road",
+    "landmark": "Kankaria Lake",
+    "city": "Ahmedabad",
+    "area": "Kankaria",
+    "pincode": "380002",
+    "price": "1500.00",
+    "contact": 9678564589,
+    "capacity": 80,
+    "available_slot_count": 20,
+    "timestamp": "2026-02-02T11:29:58Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 4,
+  "fields": {
+    "shelter_name": "FurCare Shelter",
+    "user": null,
+    "address1": "Near University Gate",
+    "address2": "University Main Road",
+    "landmark": "Gujarat University",
+    "city": "Ahmedabad",
+    "area": "Navrangpura",
+    "pincode": "380009",
+    "price": "1300.00",
+    "contact": 9678541236,
+    "capacity": 150,
+    "available_slot_count": 50,
+    "timestamp": "2026-02-02T11:32:00Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 5,
+  "fields": {
+    "shelter_name": "Stray Love Shelter",
+    "user": null,
+    "address1": "Opp. Hanuman Temple",
+    "address2": "Temple Street",
+    "landmark": "Hanuman Temple",
+    "city": "Ahmedabad",
+    "area": "Meghaninagar",
+    "pincode": "380016",
+    "price": "850.00",
+    "contact": 8745692315,
+    "capacity": 60,
+    "available_slot_count": 42,
+    "timestamp": "2026-02-02T11:32:00Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 8,
+  "fields": {
+    "shelter_name": "dog care",
+    "user": 25,
+    "address1": "hhhh",
+    "address2": "kkmk",
+    "landmark": "mkmkm",
+    "city": "kmkm",
+    "area": "kmkm",
+    "pincode": "380008",
+    "price": "500.00",
+    "contact": 8964788888,
+    "capacity": 100,
+    "available_slot_count": 99,
+    "timestamp": "2026-03-26T16:19:11Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 9,
+  "fields": {
+    "shelter_name": "dog health",
+    "user": 28,
+    "address1": "iskon temple",
+    "address2": "satellite",
+    "landmark": "iskon temple",
+    "city": "ahmedabad",
+    "area": "satellite",
+    "pincode": "380008",
+    "price": "50.00",
+    "contact": 9665852228,
+    "capacity": 100,
+    "available_slot_count": 99,
+    "timestamp": "2026-03-27T07:01:13Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 10,
+  "fields": {
+    "shelter_name": "care and cure pet home",
+    "user": 31,
+    "address1": "14 sg highway",
+    "address2": "near prahlaad nagar gardern",
+    "landmark": "prahladnagar nagar garden",
+    "city": "ahmedabad",
+    "area": "prahladnagar",
+    "pincode": "380051",
+    "price": "500.00",
+    "contact": 9622864988,
+    "capacity": 30,
+    "available_slot_count": 28,
+    "timestamp": "2026-04-13T00:16:40Z"
+  }
+},
+{
+  "model": "myadmin.shelter",
+  "pk": 11,
+  "fields": {
+    "shelter_name": "animal aid shelter",
+    "user": 32,
+    "address1": "7 drive in road",
+    "address2": "near Himalaya mall",
+    "landmark": "Himalaya mall",
+    "city": "ahmedabad",
+    "area": "memnagar",
+    "pincode": "380052",
+    "price": "650.00",
+    "contact": 9986464646,
+    "capacity": 50,
+    "available_slot_count": 50,
+    "timestamp": "2026-04-13T00:19:00Z"
+  }
+},
+{
+  "model": "myadmin.product_form",
+  "pk": 1,
+  "fields": {
+    "product_name": "Pedigree Adult Dry Dog Food",
+    "category": "Food",
+    "price": "799.98",
+    "description": "Pedigree Adult Dry Dog Food, Chicken & Vegetables, 10 kg, Contains 37 Essential Nutrients, 100% Complete & Balanced Food for Adult Dogs",
+    "age_range": "Adult",
+    "product_image": "product_images/Pedigree_Adult_Dry_Dog_Food.jpg",
+    "timestamp": "2026-02-01T07:39:01.437Z"
+  }
+},
+{
+  "model": "myadmin.product_form",
+  "pk": 2,
+  "fields": {
+    "product_name": " Dog Vest",
+    "category": "Accesories",
+    "price": "1400.00",
+    "description": "Premium Reflective Dog Vest Harness| Soft Breathable| Padded Handle| Adjustable Straps & Dual Lock Buckle| No-Choke Design with Free Leash-22mm Chest 28-37inch All Giant Breeds 35-60Kg",
+    "age_range": "Adult",
+    "product_image": "product_images/dog_vest.jpg",
+    "timestamp": "2026-02-02T01:55:35.347Z"
+  }
+},
+{
+  "model": "myadmin.product_form",
+  "pk": 3,
+  "fields": {
+    "product_name": "Tails Dog Ball,",
+    "category": "Toy",
+    "price": "499.00",
+    "description": "Goofy Tails Dog Ball, Big Ball for Large Dogs, Dog Toys Large Breed, Non-Toxic Chew Toys for Dogs (Colour May Vary)",
+    "age_range": "Adult",
+    "product_image": "product_images/dog_toy.jpg",
+    "timestamp": "2026-02-02T01:57:52.331Z"
+  }
+},
+{
+  "model": "myadmin.product_form",
+  "pk": 4,
+  "fields": {
+    "product_name": "Puppy Dry Dog Food",
+    "category": "Food",
+    "price": "1800.00",
+    "description": "\r\nDrools Puppy Dry Dog Food 10kg | Chicken & Egg Flavour | Promotes Optimum Growth | Omega 3 & 6 for Healthy Growth | Better Digestibility & Health | DHA for Smarter & Strong Puppy",
+    "age_range": "puppy",
+    "product_image": "product_images/dog_food.jpg",
+    "timestamp": "2026-02-02T02:00:04.120Z"
+  }
+},
+{
+  "model": "myadmin.product_form",
+  "pk": 6,
+  "fields": {
+    "product_name": "Dumbbell Plush Toy",
+    "category": "Toy",
+    "price": "338.00",
+    "description": "Goofy Tails Gym Series Dumbbell Plush Toy for Dogs | Squeaky Toy for Dogs and Puppies | Great for Playing Fetch and Retrieve (Red)",
+    "age_range": "all",
+    "product_image": "product_images/toy1.jpg",
+    "timestamp": "2026-02-02T06:29:28.243Z"
+  }
+},
+{
+  "model": "myadmin.product_form",
+  "pk": 8,
+  "fields": {
+    "product_name": " Dog Vest",
+    "category": "Accesories",
+    "price": "1200.00",
+    "description": " Dog Vest",
+    "age_range": "all",
+    "product_image": "product_images/dog_vest_vgNfsQB.jpg",
+    "timestamp": "2026-02-08T05:03:47.332Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "product": 1,
+    "TotalAmount": "800.00",
+    "order_date": "2026-02-01T09:10:05Z",
+    "payment_status": "completed",
+    "payment_mode": "online",
+    "payment_id": null,
+    "payment_date": "2026-02-01T09:10:05Z",
+    "timestamp": "2026-02-01T13:40:40Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "product": 3,
+    "TotalAmount": "799.00",
+    "order_date": "2025-11-03T07:36:45Z",
+    "payment_status": "completed",
+    "payment_mode": "online",
+    "payment_id": null,
+    "payment_date": "2025-11-03T07:36:45Z",
+    "timestamp": "2026-02-02T07:38:29Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "product": 2,
+    "TotalAmount": "1400.00",
+    "order_date": "2025-12-10T07:36:45Z",
+    "payment_status": "completed",
+    "payment_mode": "online",
+    "payment_id": null,
+    "payment_date": "2025-12-10T07:36:45Z",
+    "timestamp": "2026-02-02T07:38:29Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "product": 1,
+    "TotalAmount": "799.98",
+    "order_date": "2026-03-22T10:43:24Z",
+    "payment_status": "completed",
+    "payment_mode": "online",
+    "payment_id": null,
+    "payment_date": "2026-03-22T10:43:24Z",
+    "timestamp": "2026-03-22T10:43:24Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 5,
+  "fields": {
+    "user": 17,
+    "product": 1,
+    "TotalAmount": "2599.98",
+    "order_date": "2026-03-27T00:03:37Z",
+    "payment_status": "",
+    "payment_mode": "online",
+    "payment_id": "pay_SW2ro0xUvDOqSU",
+    "payment_date": "2026-03-27T00:03:37Z",
+    "timestamp": "2026-03-27T00:03:37Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 6,
+  "fields": {
+    "user": 26,
+    "product": 1,
+    "TotalAmount": "3098.98",
+    "order_date": "2026-03-27T06:56:08Z",
+    "payment_status": "",
+    "payment_mode": "online",
+    "payment_id": "pay_SW9tW7UOvGtfjS",
+    "payment_date": "2026-03-27T06:56:08Z",
+    "timestamp": "2026-03-27T06:56:08Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 7,
+  "fields": {
+    "user": 17,
+    "product": 4,
+    "TotalAmount": "7200.00",
+    "order_date": "2026-04-12T22:50:03Z",
+    "payment_status": "",
+    "payment_mode": "online",
+    "payment_id": "pay_Sckh5wSruAcw4i",
+    "payment_date": "2026-04-12T22:50:03Z",
+    "timestamp": "2026-04-12T22:50:03Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 8,
+  "fields": {
+    "user": 17,
+    "product": 3,
+    "TotalAmount": "1497.00",
+    "order_date": "2026-04-12T23:53:40Z",
+    "payment_status": "",
+    "payment_mode": "online",
+    "payment_id": "pay_SclmGNlAZwIulL",
+    "payment_date": "2026-04-12T23:53:40Z",
+    "timestamp": "2026-04-12T23:53:40Z"
+  }
+},
+{
+  "model": "myadmin.order_table",
+  "pk": 9,
+  "fields": {
+    "user": 30,
+    "product": 4,
+    "TotalAmount": "5400.00",
+    "order_date": "2026-04-13T01:01:31Z",
+    "payment_status": "",
+    "payment_mode": "online",
+    "payment_id": "pay_ScmvtyWSZCLwiN",
+    "payment_date": "2026-04-13T01:01:31Z",
+    "timestamp": "2026-04-13T01:01:31Z"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "pet_name": "shiro",
+    "breed": "Labrador Retriever",
+    "age": 5,
+    "weight": "12.0",
+    "gender": "male",
+    "pet_image": "pet/shiro.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "pet_name": "bruno",
+    "breed": "Rottweiler",
+    "age": 8,
+    "weight": "20.0",
+    "gender": "male",
+    "pet_image": "pet/bruno.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "pet_name": "Tyson",
+    "breed": "Golden Retriever",
+    "age": 8,
+    "weight": "15.0",
+    "gender": "male",
+    "pet_image": "pet/tyson.jpeg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "pet_name": "Bella",
+    "breed": "Pomeranian",
+    "age": 6,
+    "weight": "10.0",
+    "gender": "female",
+    "pet_image": "pet/bella.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "pet_name": "pluto",
+    "breed": "beagle",
+    "age": 7,
+    "weight": "18.0",
+    "gender": "male",
+    "pet_image": "pet/pluto.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 6,
+  "fields": {
+    "user": 10,
+    "pet_name": "dcd",
+    "breed": "vfes",
+    "age": 5,
+    "weight": "10.0",
+    "gender": "male",
+    "pet_image": "pets/34.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 7,
+  "fields": {
+    "user": 10,
+    "pet_name": "pizza",
+    "breed": "jsnsn",
+    "age": 5,
+    "weight": "15.0",
+    "gender": "male",
+    "pet_image": "pets/bella.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 11,
+  "fields": {
+    "user": 10,
+    "pet_name": "njan",
+    "breed": "njnj",
+    "age": 7,
+    "weight": "10.0",
+    "gender": "male",
+    "pet_image": "pets/35.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 12,
+  "fields": {
+    "user": 10,
+    "pet_name": "jnjn",
+    "breed": "jj",
+    "age": 10,
+    "weight": "12.0",
+    "gender": "male",
+    "pet_image": "pets/34_r3bRU7n.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 13,
+  "fields": {
+    "user": 13,
+    "pet_name": "Rocky",
+    "breed": "Labrador",
+    "age": 3,
+    "weight": "45.0",
+    "gender": "male",
+    "pet_image": "pets/34_DiwB9FP.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 15,
+  "fields": {
+    "user": 14,
+    "pet_name": "shiro",
+    "breed": "labra",
+    "age": 1,
+    "weight": "20.0",
+    "gender": "male",
+    "pet_image": "pets/35_vf9Br7c.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 16,
+  "fields": {
+    "user": 14,
+    "pet_name": "shiro",
+    "breed": "labra",
+    "age": 1,
+    "weight": "20.0",
+    "gender": "male",
+    "pet_image": "pets/35_UC6rcjc.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 17,
+  "fields": {
+    "user": 15,
+    "pet_name": "Tom",
+    "breed": "husky",
+    "age": 8,
+    "weight": "15.0",
+    "gender": "male",
+    "pet_image": "pets/35_WWyLCNT.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 18,
+  "fields": {
+    "user": 17,
+    "pet_name": "janjnj",
+    "breed": "nn",
+    "age": 5,
+    "weight": "10.0",
+    "gender": "male",
+    "pet_image": "pets/35_4P28pK6.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 19,
+  "fields": {
+    "user": 17,
+    "pet_name": "shha",
+    "breed": "hbhb",
+    "age": 5,
+    "weight": "10.0",
+    "gender": "male",
+    "pet_image": "pets/35_iSPk0dK.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 20,
+  "fields": {
+    "user": 26,
+    "pet_name": "Tom",
+    "breed": "labrador",
+    "age": 5,
+    "weight": "10.0",
+    "gender": "male",
+    "pet_image": "pets/41.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 21,
+  "fields": {
+    "user": 26,
+    "pet_name": "voodoo",
+    "breed": "husky",
+    "age": 8,
+    "weight": "15.0",
+    "gender": "male",
+    "pet_image": "pets/37.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 22,
+  "fields": {
+    "user": 27,
+    "pet_name": "shiro",
+    "breed": "labra",
+    "age": 1,
+    "weight": "20.0",
+    "gender": "male",
+    "pet_image": "pets/34_Xd2wnTn.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 23,
+  "fields": {
+    "user": 17,
+    "pet_name": "shiro",
+    "breed": "jh",
+    "age": 5,
+    "weight": "5.0",
+    "gender": "male",
+    "pet_image": "pets/42.webp"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 24,
+  "fields": {
+    "user": 17,
+    "pet_name": "shiro",
+    "breed": "labra",
+    "age": 5,
+    "weight": "10.0",
+    "gender": "male",
+    "pet_image": "pets/dog-puppy-on-garden-royalty-free-image-1586966191_1.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 25,
+  "fields": {
+    "user": 30,
+    "pet_name": "leo",
+    "breed": "German shepherd",
+    "age": 11,
+    "weight": "20.0",
+    "gender": "male",
+    "pet_image": "pets/202105German-Shepherd-1358309706-scaled-1_1.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 26,
+  "fields": {
+    "user": 30,
+    "pet_name": "rocky",
+    "breed": "Indian pariah",
+    "age": 10,
+    "weight": "18.0",
+    "gender": "male",
+    "pet_image": "pets/street_dog_5.jpg"
+  }
+},
+{
+  "model": "myadmin.pet",
+  "pk": 27,
+  "fields": {
+    "user": 30,
+    "pet_name": "lily",
+    "breed": "golden retriever",
+    "age": 5,
+    "weight": "10.0",
+    "gender": "female",
+    "pet_image": "pets/dog-puppy-on-garden-royalty-free-image-1586966191_1_JkVLOrL.jpg"
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 1,
+  "fields": {
+    "pet": 4,
+    "disease": "Skin Allergy",
+    "allergies": "Dust",
+    "description": "Bella shows mild itching and redness on the skin. Condition is stable with medication.",
+    "medicine": "Apoquel 5.4mg",
+    "last_vaccination": "2025-11-01",
+    "next_vaccination": "2026-11-01",
+    "vaccine_name": "Anti-Rabies",
+    "reminder_status": "pending"
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 2,
+  "fields": {
+    "pet": 2,
+    "disease": "Tick Fever",
+    "allergies": null,
+    "description": "High fever and lethargy observed",
+    "medicine": "Doxycycline",
+    "last_vaccination": "2025-12-16",
+    "next_vaccination": "2026-03-16",
+    "vaccine_name": "DHPPi",
+    "reminder_status": "pending"
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 3,
+  "fields": {
+    "pet": 1,
+    "disease": "Ear Infection",
+    "allergies": "Food allergy",
+    "description": "Ear redness and discharge",
+    "medicine": "Otomax Drops",
+    "last_vaccination": "2026-02-06",
+    "next_vaccination": "2026-10-06",
+    "vaccine_name": "Bordetella",
+    "reminder_status": "pending"
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 4,
+  "fields": {
+    "pet": 5,
+    "disease": "Worm Infection",
+    "allergies": "None",
+    "description": "Weight loss and dull coat",
+    "medicine": "Drontal Plus",
+    "last_vaccination": "2025-08-05",
+    "next_vaccination": "2026-08-05",
+    "vaccine_name": "Deworming",
+    "reminder_status": "pending"
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 8,
+  "fields": {
+    "pet": 11,
+    "disease": "b  bhb",
+    "allergies": "bhh",
+    "description": "njnjn",
+    "medicine": "hnhn",
+    "last_vaccination": "2025-02-05",
+    "next_vaccination": "2025-08-12",
+    "vaccine_name": "njnj",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 9,
+  "fields": {
+    "pet": 12,
+    "disease": "j,",
+    "allergies": "mk",
+    "description": "hbghbh",
+    "medicine": "mm",
+    "last_vaccination": "2025-05-06",
+    "next_vaccination": "2026-08-02",
+    "vaccine_name": "mm,",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 10,
+  "fields": {
+    "pet": 13,
+    "disease": "kennel cough",
+    "allergies": "stuffy nose",
+    "description": "abc",
+    "medicine": "abc",
+    "last_vaccination": "2026-01-01",
+    "next_vaccination": "2026-06-01",
+    "vaccine_name": "abc",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 11,
+  "fields": {
+    "pet": 15,
+    "disease": "Ear Infection",
+    "allergies": "dust",
+    "description": "ear infection",
+    "medicine": "apoquel",
+    "last_vaccination": "2026-01-12",
+    "next_vaccination": "2027-01-11",
+    "vaccine_name": "dcpp",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 12,
+  "fields": {
+    "pet": 17,
+    "disease": "ear infection",
+    "allergies": "dust",
+    "description": "my dog has ear infection",
+    "medicine": "himpyrin",
+    "last_vaccination": "2025-08-12",
+    "next_vaccination": "2026-08-12",
+    "vaccine_name": "rabies",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 13,
+  "fields": {
+    "pet": 19,
+    "disease": "hjsjnjs",
+    "allergies": "jnjn",
+    "description": "kmjkm",
+    "medicine": "njnjnj",
+    "last_vaccination": "2025-02-15",
+    "next_vaccination": "2026-02-15",
+    "vaccine_name": "jnnjnj",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 14,
+  "fields": {
+    "pet": 20,
+    "disease": "skin infection",
+    "allergies": "dust",
+    "description": "Dog had vomiting and diarrhea caused by canine infection",
+    "medicine": "cefpodoxime",
+    "last_vaccination": "2025-02-12",
+    "next_vaccination": "2025-02-12",
+    "vaccine_name": "parvorirus",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 15,
+  "fields": {
+    "pet": 21,
+    "disease": "gastrontretitis",
+    "allergies": "chicken",
+    "description": "he has fever",
+    "medicine": "metronidazole",
+    "last_vaccination": "2025-08-09",
+    "next_vaccination": "2026-08-09",
+    "vaccine_name": "dhpp vaccine",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 16,
+  "fields": {
+    "pet": 22,
+    "disease": "Ticks",
+    "allergies": "polien",
+    "description": "muscle pain",
+    "medicine": "doxycycline",
+    "last_vaccination": "2025-08-13",
+    "next_vaccination": "2026-08-14",
+    "vaccine_name": "DHPP vaccine",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 17,
+  "fields": {
+    "pet": 25,
+    "disease": "skin infection",
+    "allergies": "dust",
+    "description": "mild skin irritation on paws",
+    "medicine": "itraxonazole",
+    "last_vaccination": "2025-05-12",
+    "next_vaccination": "2026-05-12",
+    "vaccine_name": "rabies",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.pethealth",
+  "pk": 18,
+  "fields": {
+    "pet": 26,
+    "disease": "ear  infection",
+    "allergies": "none",
+    "description": "ear redness and wax buildup",
+    "medicine": "ofloxcin drops",
+    "last_vaccination": "2025-06-19",
+    "next_vaccination": "2026-06-19",
+    "vaccine_name": "distemper",
+    "reminder_status": null
+  }
+},
+{
+  "model": "myadmin.passwordresettoken",
+  "pk": 1,
+  "fields": {
+    "user": 9,
+    "token": "2681cf06-8607-4812-b7c5-18fca421202a",
+    "created_at": "2026-03-02T03:50:41.846Z"
+  }
+},
+{
+  "model": "myadmin.passwordresettoken",
+  "pk": 2,
+  "fields": {
+    "user": 9,
+    "token": "92d82051-a771-4a60-9352-6eee8ec063b1",
+    "created_at": "2026-03-02T03:54:48.932Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "pet": 1,
+    "shelter": 2,
+    "price_per_day": "0.00",
+    "total_amount": "0.00",
+    "start_date": "2026-01-04",
+    "end_date": "2026-01-15",
+    "boarding_status": "approved",
+    "timestamp": "2026-02-02T11:33:39Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "pet": 2,
+    "shelter": 5,
+    "price_per_day": "0.00",
+    "total_amount": "0.00",
+    "start_date": "2025-12-01",
+    "end_date": "2025-12-31",
+    "boarding_status": "approved",
+    "timestamp": "2026-02-02T11:33:39Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "pet": 3,
+    "shelter": 4,
+    "price_per_day": "0.00",
+    "total_amount": "0.00",
+    "start_date": "2026-01-18",
+    "end_date": "2026-01-20",
+    "boarding_status": "approved",
+    "timestamp": "2026-02-02T11:34:50Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "pet": 4,
+    "shelter": 3,
+    "price_per_day": "0.00",
+    "total_amount": "0.00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-04",
+    "boarding_status": "approved",
+    "timestamp": "2026-02-02T11:34:50Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 5,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 1,
+    "price_per_day": "0.00",
+    "total_amount": "0.00",
+    "start_date": "2026-03-19",
+    "end_date": "2026-03-21",
+    "boarding_status": "cancelled",
+    "timestamp": "2026-03-19T10:22:51Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 6,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 2,
+    "price_per_day": "900.00",
+    "total_amount": "1800.00",
+    "start_date": "2026-03-22",
+    "end_date": "2026-03-23",
+    "boarding_status": "approved",
+    "timestamp": "2026-03-21T05:23:11Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 7,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 2,
+    "price_per_day": "900.00",
+    "total_amount": "1800.00",
+    "start_date": "2026-03-22",
+    "end_date": "2026-03-23",
+    "boarding_status": "approved",
+    "timestamp": "2026-03-21T22:08:36Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 8,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 8,
+    "price_per_day": "500.00",
+    "total_amount": "1000.00",
+    "start_date": "2026-03-26",
+    "end_date": "2026-03-27",
+    "boarding_status": "approved",
+    "timestamp": "2026-03-26T16:45:39Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 9,
+  "fields": {
+    "user": 26,
+    "pet": 20,
+    "shelter": 1,
+    "price_per_day": "1200.00",
+    "total_amount": "2400.00",
+    "start_date": "2026-03-27",
+    "end_date": "2026-03-28",
+    "boarding_status": "pending",
+    "timestamp": "2026-03-27T06:44:20Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 10,
+  "fields": {
+    "user": 26,
+    "pet": 21,
+    "shelter": 1,
+    "price_per_day": "1200.00",
+    "total_amount": "2400.00",
+    "start_date": "2026-03-28",
+    "end_date": "2026-03-29",
+    "boarding_status": "pending",
+    "timestamp": "2026-03-27T06:54:46Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 11,
+  "fields": {
+    "user": 26,
+    "pet": 20,
+    "shelter": 9,
+    "price_per_day": "50.00",
+    "total_amount": "100.00",
+    "start_date": "2026-03-28",
+    "end_date": "2026-03-29",
+    "boarding_status": "approved",
+    "timestamp": "2026-03-27T07:05:14Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 12,
+  "fields": {
+    "user": 26,
+    "pet": 20,
+    "shelter": 9,
+    "price_per_day": "50.00",
+    "total_amount": "200.00",
+    "start_date": "2026-03-28",
+    "end_date": "2026-03-31",
+    "boarding_status": "pending",
+    "timestamp": "2026-03-27T07:08:40Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 13,
+  "fields": {
+    "user": 26,
+    "pet": 20,
+    "shelter": 1,
+    "price_per_day": "1200.00",
+    "total_amount": "2400.00",
+    "start_date": "2026-03-27",
+    "end_date": "2026-03-28",
+    "boarding_status": "pending",
+    "timestamp": "2026-03-27T07:45:17Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 14,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 2,
+    "price_per_day": "900.00",
+    "total_amount": "1800.00",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-11",
+    "boarding_status": "pending",
+    "timestamp": "2026-04-09T06:00:30Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 15,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 4,
+    "price_per_day": "1300.00",
+    "total_amount": "2600.00",
+    "start_date": "2026-04-11",
+    "end_date": "2026-04-12",
+    "boarding_status": "pending",
+    "timestamp": "2026-04-11T07:33:06Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 16,
+  "fields": {
+    "user": 17,
+    "pet": 18,
+    "shelter": 1,
+    "price_per_day": "1200.00",
+    "total_amount": "9600.00",
+    "start_date": "2025-12-25",
+    "end_date": "2026-01-01",
+    "boarding_status": "pending",
+    "timestamp": "2026-04-12T08:24:03Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 17,
+  "fields": {
+    "user": 30,
+    "pet": 25,
+    "shelter": 10,
+    "price_per_day": "500.00",
+    "total_amount": "2500.00",
+    "start_date": "2026-04-12",
+    "end_date": "2026-04-18",
+    "boarding_status": "approved",
+    "timestamp": "2026-04-13T00:26:54Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 18,
+  "fields": {
+    "user": 30,
+    "pet": 26,
+    "shelter": 10,
+    "price_per_day": "500.00",
+    "total_amount": "2500.00",
+    "start_date": "2026-04-14",
+    "end_date": "2026-04-18",
+    "boarding_status": "approved",
+    "timestamp": "2026-04-13T00:52:19Z"
+  }
+},
+{
+  "model": "myadmin.boardingrequest",
+  "pk": 19,
+  "fields": {
+    "user": 30,
+    "pet": 25,
+    "shelter": 10,
+    "price_per_day": "500.00",
+    "total_amount": "1000.00",
+    "start_date": "2026-04-28",
+    "end_date": "2026-04-29",
+    "boarding_status": "pending",
+    "timestamp": "2026-04-13T00:53:46Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 1,
+  "fields": {
+    "request": 1,
+    "user": 1,
+    "shelter": 2,
+    "amount": "13500.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-01-01T11:38:19Z",
+    "timestamp": "2026-02-02T11:42:18Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 2,
+  "fields": {
+    "request": 2,
+    "user": 2,
+    "shelter": 5,
+    "amount": "26350.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2025-12-01T11:39:08Z",
+    "timestamp": "2026-02-02T11:42:18Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 3,
+  "fields": {
+    "request": 3,
+    "user": 3,
+    "shelter": 4,
+    "amount": "3900.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-01-18T11:39:08Z",
+    "timestamp": "2026-02-02T11:42:18Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 4,
+  "fields": {
+    "request": 4,
+    "user": 4,
+    "shelter": 3,
+    "amount": "6000.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-02-01T11:42:30Z",
+    "timestamp": "2026-02-02T11:43:01Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 5,
+  "fields": {
+    "request": 8,
+    "user": 17,
+    "shelter": 8,
+    "amount": "1000.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-03-26T19:50:25Z",
+    "timestamp": "2026-03-26T19:50:25Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 6,
+  "fields": {
+    "request": 11,
+    "user": 26,
+    "shelter": 9,
+    "amount": "100.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-03-27T07:08:09Z",
+    "timestamp": "2026-03-27T07:08:09Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 7,
+  "fields": {
+    "request": 7,
+    "user": 17,
+    "shelter": 2,
+    "amount": "1800.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-04-10T22:20:23Z",
+    "timestamp": "2026-04-10T22:20:23Z"
+  }
+},
+{
+  "model": "myadmin.shelterpayment",
+  "pk": 8,
+  "fields": {
+    "request": 17,
+    "user": 30,
+    "shelter": 10,
+    "amount": "2500.00",
+    "payment_mode": "online",
+    "payment_status": "completed",
+    "payment_date": "2026-04-13T00:53:22Z",
+    "timestamp": "2026-04-13T00:53:22Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 1,
+    "quantity": 3,
+    "unit_price": "800.00",
+    "subtotal": "2400.00",
+    "total_amount": "2400.00",
+    "timestamp": "2026-02-02T11:48:34Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "product": 3,
+    "quantity": 1,
+    "unit_price": "799.00",
+    "subtotal": "799.00",
+    "total_amount": "799.00",
+    "timestamp": "2026-02-02T11:48:34Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "product": 2,
+    "quantity": 2,
+    "unit_price": "2800.00",
+    "subtotal": "2800.00",
+    "total_amount": "2800.00",
+    "timestamp": "2026-02-02T11:49:20Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 4,
+  "fields": {
+    "order": 4,
+    "product": 1,
+    "quantity": 1,
+    "unit_price": "799.98",
+    "subtotal": "799.98",
+    "total_amount": "799.98",
+    "timestamp": "2026-03-22T10:43:25Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 5,
+  "fields": {
+    "order": 5,
+    "product": 1,
+    "quantity": 1,
+    "unit_price": "799.98",
+    "subtotal": "799.98",
+    "total_amount": "799.98",
+    "timestamp": "2026-03-27T00:03:37Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 6,
+  "fields": {
+    "order": 5,
+    "product": 4,
+    "quantity": 1,
+    "unit_price": "1800.00",
+    "subtotal": "1800.00",
+    "total_amount": "1800.00",
+    "timestamp": "2026-03-27T00:03:37Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 7,
+  "fields": {
+    "order": 6,
+    "product": 1,
+    "quantity": 1,
+    "unit_price": "799.98",
+    "subtotal": "799.98",
+    "total_amount": "799.98",
+    "timestamp": "2026-03-27T06:56:08Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 8,
+  "fields": {
+    "order": 6,
+    "product": 3,
+    "quantity": 1,
+    "unit_price": "499.00",
+    "subtotal": "499.00",
+    "total_amount": "499.00",
+    "timestamp": "2026-03-27T06:56:08Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 9,
+  "fields": {
+    "order": 6,
+    "product": 4,
+    "quantity": 1,
+    "unit_price": "1800.00",
+    "subtotal": "1800.00",
+    "total_amount": "1800.00",
+    "timestamp": "2026-03-27T06:56:08Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 10,
+  "fields": {
+    "order": 7,
+    "product": 4,
+    "quantity": 4,
+    "unit_price": "1800.00",
+    "subtotal": "7200.00",
+    "total_amount": "7200.00",
+    "timestamp": "2026-04-12T22:50:03Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 11,
+  "fields": {
+    "order": 8,
+    "product": 3,
+    "quantity": 3,
+    "unit_price": "499.00",
+    "subtotal": "1497.00",
+    "total_amount": "1497.00",
+    "timestamp": "2026-04-12T23:53:40Z"
+  }
+},
+{
+  "model": "myadmin.order_item",
+  "pk": 12,
+  "fields": {
+    "order": 9,
+    "product": 4,
+    "quantity": 3,
+    "unit_price": "1800.00",
+    "subtotal": "5400.00",
+    "total_amount": "5400.00",
+    "timestamp": "2026-04-13T01:01:31Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 1,
+  "fields": {
+    "user": 17,
+    "user_query": "hi",
+    "ai_response": "Hello! ItÂ’s a pleasure to meet you. \n\nAs a professional dog expert, IÂ’m here to help you with anything related to our canine companions. Whether you have questions about a specific breed, need advice on behavior and training, or want tips on nutrition and health, IÂ’ve got you covered.\n\n**How can I help you and your four-legged friend today?** Here are a few things we could discuss:\n\n*   **Training & Behavior:** From potty training a new puppy to managing separation anxiety or leash pulling.\n*   **Breed Selection:** Finding the perfect dog to match your lifestyle.\n*   **Health & Wellness:** Advice on diet, exercise needs, or spotting common health issues.\n*   **Fun & Enrichment:** Best toys, games, and mental stimulation for your pup.\n\nWhatÂ’s on your mind?",
+    "timestamp": "2026-03-23T13:46:53.596Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 2,
+  "fields": {
+    "user": 17,
+    "user_query": "my dog has fever what should I do",
+    "ai_response": "As a professional dog expert, I must start with a critical disclaimer: **A fever in a dog can be a sign of a serious underlying infection or inflammatory condition. If your dogÂ’s temperature is 103Â°F (39.4Â°C) or higher, you should contact your veterinarian immediately.**\n\nA dog's normal body temperature is between **101Â°F and 102.5Â°F (38.3Â°C to 39.2Â°C)**. If it reaches **106Â°F**, it is a life-threatening emergency that can lead to internal organ damage.\n\nHere is exactly what you should do right now:\n\n### 1. Confirm the Fever\nYou cannot tell if a dog has a fever just by feeling their nose. While warm ears and red eyes are indicators, the only way to be sure is with a **rectal thermometer** (digital is easiest). \n*   Use a lubricant (like petroleum jelly).\n*   Gently insert the thermometer about one inch into the rectum.\n*   If the reading is above 103Â°F, they have a fever.\n\n### 2. Help Cool Them Down (Safely)\nDo not try to \"shock\" their system. The goal is a gradual cooling.\n*   **Use Lukewarm Water:** Apply cool (not ice-cold) water to their fur, focusing on the **paws and ears**.\n*   **Use a Fan:** Place the dog in front of a fan while their coat is damp to help with evaporative cooling.\n*   **Stop at 103Â°F:** Once their temperature drops to 103Â°F, stop the cooling process. You don't want them to become hypothermic.\n\n### 3. Encourage Hydration\nOffer small amounts of fresh, cool water frequently. Do not force-feed water with a syringe, as this can lead to aspiration (water in the lungs). If they wonÂ’t drink, this is a sign that medical intervention (IV fluids) is necessary.\n\n### 4. What NOT to do (Very Important)\n*   **NEVER give human medication:** Do not give your dog Tylenol (Acetaminophen), Advil (Ibuprofen), or Aspirin. These are **highly toxic** to dogs and can cause liver failure or fatal stomach ulcers.\n*   **Do not use ice baths:** Extremely cold water can cause the blood vessels to constrict, which actually traps heat inside the body and makes the fever worse.\n\n### 5. Monitor for Other Symptoms\nA fever is rarely a standalone issue. Look for:\n*   Lethargy or shivering.\n*   Loss of appetite.\n*   Vomiting or diarrhea.\n*   Coughing or nasal discharge.\n*   Decreased activity.\n\n### When to go to the Vet Immediately:\n*   The temperature is **above 104.5Â°F**.\n*   The fever does not break within a few hours of home cooling.\n*   The dog is lethargic, won't eat, or is acting disoriented.\n*   You suspect they ingested something toxic (antifreeze, toxic plants, etc.).\n\n**Summary for the Expert Perspective:** \nA fever is the bodyÂ’s way of fighting infection or inflammation. While you can provide temporary comfort at home, a vet needs to diagnose *why* the fever is happening. It could be anything from a simple ear infection to a tick-borne illness or an immune-mediated disease. **Call your vet now to report the temperature and ask for an urgent appointment.**",
+    "timestamp": "2026-03-23T13:47:35.455Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 3,
+  "fields": {
+    "user": 17,
+    "user_query": "how many tails does the dog have?",
+    "ai_response": "As a professional dog expert, I can confirm that a standard, healthy dog has **one tail**.\n\nBiologically, the tail is an extension of the dog's vertebral column. It is made up of a varying number of small bones called **caudal vertebrae** (usually between 5 and 20), along with muscles, nerves, and skin.\n\nHere are a few expert insights regarding the dog's tail:\n\n1.  **Purpose:** The tail is not just for show. It is a vital tool for **balance** (especially when turning at high speeds) and a primary means of **communication** (conveying emotions like happiness, aggression, or fear).\n2.  **Variations:** While every dog is born with one tail, the appearance varies wildly by breed. Some are long and plumed (like a Golden Retriever), some are tightly curled (like a Pug), and some are naturally \"bobbed\" or very short due to genetics (like the Australian Stumpy Tail Cattle Dog).\n3.  **Medical Anomalies:** In extremely rare cases of genetic mutation or developmental abnormalities (such as *polymelia*), a dog could technically be born with an extra appendage that resembles a tail, but this is considered a rare medical deformity and is not a natural trait of any breed.\n\n**In short: One dog, one tail.**",
+    "timestamp": "2026-03-23T13:48:10.964Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 4,
+  "fields": {
+    "user": 17,
+    "user_query": "hi",
+    "ai_response": "Hello there! ItÂ’s a pleasure to meet you.\n\nAs a professional dog expert, IÂ’m here to help you with all things canine. Whether you have questions about puppy training, understanding complex behaviors, choosing the right breed for your lifestyle, or looking for tips on health and nutrition, IÂ’ve got you covered.\n\nHow can I assist you and your four-legged friend today?",
+    "timestamp": "2026-03-24T07:42:56.950Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 5,
+  "fields": {
+    "user": 17,
+    "user_query": "my dog has fever what should I do",
+    "ai_response": "As a professional dog expert, I must emphasize that a fever in a dog is often a sign of an underlying infection, inflammation, or ingestion of a toxin. Because dogsÂ’ bodies are different from ours, a fever can become dangerous very quickly.\n\nHere is a step-by-step guide on what you should do right now:\n\n### 1. Confirm the Temperature\nYou cannot accurately judge a dog's temperature by feeling their nose or ears. You must use a thermometer (rectal is most accurate, but a specialized pet ear thermometer can work).\n*   **Normal range:** 101.0Â°F to 102.5Â°F (38.3Â°C to 39.2Â°C).\n*   **Fever:** Anything over **103Â°F (39.4Â°C)**.\n*   **Emergency:** Anything over **106Â°F (41.1Â°C)** is a life-threatening emergency that can lead to organ failure.\n\n### 2. Immediate \"DoÂ’s\" (How to Cool Them Safely)\nIf your dog has a moderate fever, you can try to lower their temperature safely while you prepare to contact a vet:\n*   **Apply Cool Water:** Use a cloth soaked in **lukewarm to cool water** (never ice-cold) and apply it to their paws, ears, and chest. \n*   **Use a Fan:** Place the dog in front of a fan while their fur is damp to help with evaporative cooling.\n*   **Offer Water:** Encourage them to drink small amounts of water, but do not force-feed liquids, as they could inhale them into their lungs.\n*   **Monitor:** Once their temperature drops to **103Â°F**, stop the cooling process so they donÂ’t become too cold or go into shock.\n\n### 3. The \"Absolute Don'ts\" (Critical)\n*   **NEVER give human medication:** Do not give your dog Tylenol (Acetaminophen), Advil (Ibuprofen), or Aspirin. These are **highly toxic** to dogs and can cause fatal liver failure or stomach ulcers.\n*   **Do not use ice or ice-cold water:** This can cause the blood vessels to constrict, which actually traps heat inside the body and makes the fever worse.\n\n### 4. When to See a Veterinarian\n**A fever should always be taken seriously.** You should call a vet immediately if:\n*   The temperature is **103Â°F or higher**.\n*   The fever lasts for more than 24 hours.\n*   The fever is accompanied by other symptoms like lethargy, vomiting, diarrhea, loss of appetite, or shivering.\n*   The dogÂ’s gums are very red or very pale.\n\n### 5. Potential Causes to Consider\nWhen you speak to the vet, be ready to mention if your dog has:\n*   Had a recent vaccination (mild fevers are common for 24Â–48 hours after shots).\n*   Been bitten by a tick.\n*   Eaten something unusual (toxins).\n*   An obvious injury or wound that looks red/swollen (abscess).\n\n**The Bottom Line:** If your dogÂ’s temperature is above 103Â°F, please call your veterinarian or a local emergency animal clinic now. A fever is a symptom, not a disease; a professional needs to find the \"why\" behind the heat.",
+    "timestamp": "2026-03-24T07:43:20.837Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 6,
+  "fields": {
+    "user": 17,
+    "user_query": "Dhpp vaccine",
+    "ai_response": "As a professional dog expert, I can tell you that the **DHPP vaccine** is considered the \"core\" foundation of canine preventative health. Often referred to as the \"distemper shot,\" it is actually a 5-in-1 (or 4-in-1) combination vaccine that protects against four highly contagious and potentially fatal diseases.\n\nHere is a comprehensive breakdown of what the DHPP vaccine covers, the schedule for administration, and why it is essential.\n\n---\n\n### 1. What does DHPP stand for?\n\nEach letter represents a specific disease:\n\n*   **D Â– Distemper:** A severe viral disease that attacks the respiratory, gastrointestinal, and nervous systems. It is often fatal, and dogs that survive frequently suffer permanent neurological damage.\n*   **H Â– Infectious Canine Hepatitis (Adenovirus Type 1):** This virus targets the liver, kidneys, and lungs. It can cause everything from mild symptoms to sudden death.\n*   **P Â– Parainfluenza:** A highly contagious respiratory virus. While not usually fatal on its own, it is a primary contributor to \"Kennel Cough\" and can lead to pneumonia.\n*   **P Â– Parvovirus:** This is perhaps the most feared by owners. It is an extremely hardy virus that causes severe vomiting and bloody diarrhea. Without intensive treatment, the mortality rate is over 90% in puppies.\n\n*Note: You may also see this listed as **DAPP**, where the \"A\" stands for Adenovirus (the cause of Hepatitis).*\n\n---\n\n### 2. The Vaccination Schedule\n\nBecause puppies have \"maternal antibodies\" from their mother's milk that can interfere with vaccines, they require a series of shots to ensure their own immune system takes over.\n\n*   **Puppy Series:**\n    *   **6Â–8 weeks:** First dose\n    *   **10Â–12 weeks:** Second dose\n    *   **14Â–16 weeks:** Third (and usually final) puppy dose\n*   **Adult Boosters:**\n    *   A booster is given **one year** after the final puppy dose.\n    *   After that, the American Animal Hospital Association (AAHA) guidelines generally recommend a booster **every 3 years**.\n\n---\n\n### 3. Why is it \"Core\"?\n\nIn the veterinary world, vaccines are categorized as **Core** or **Non-Core**. \n*   **Core vaccines** (like DHPP and Rabies) are recommended for *every* dog, regardless of location or lifestyle, because the diseases are widespread and dangerous.\n*   **Non-core vaccines** (like Lyme, Lepto, or Bordetella) are recommended based on your dog's specific risk factors (e.g., hiking in woods, going to daycare).\n\n---\n\n### 4. Side Effects and Safety\n\nLike any medical procedure, there can be side effects, though they are usually mild:\n*   **Common:** Lethargy, mild fever, or slight soreness/swelling at the injection site for 24Â–48 hours.\n*   **Rare (Emergency):** Anaphylactic reactions (hives, facial swelling, vomiting, or difficulty breathing). If these occur, contact a vet immediately.\n\n---\n\n### 5. Expert Tips for Owners\n\n1.  **The \"Window of Vulnerability\":** Your puppy is not fully protected until about two weeks *after* their final 16-week shot. Avoid high-traffic dog areas (parks, pet stores) until this series is complete.\n2.  **Titer Testing:** If you are concerned about over-vaccinating an adult dog, you can ask your vet for a **titer test**. This is a blood test that measures the level of antibodies in your dogÂ’s system to see if they still have immunity from their previous shots.\n3.  **Don't Skip the 1-Year Booster:** The booster given at one year of age is the most critical one, as it \"locks in\" the immunity established during the puppy stages.\n\n**The Bottom Line:** The DHPP vaccine is the single most effective way to prevent some of the most painful and expensive diseases in the canine world. It is the hallmark of responsible dog ownership.",
+    "timestamp": "2026-03-27T06:34:22.992Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 7,
+  "fields": {
+    "user": 17,
+    "user_query": "give informations about DHPP vaccine",
+    "ai_response": "As a professional dog expert, I can tell you that the **DHPP vaccine** is considered the \"core\" foundation of canine preventative health. It is often referred to as the \"distemper shot\" or the \"5-in-1\" vaccine because it protects against four highly contagious and potentially fatal diseases in one injection.\n\nHere is a comprehensive breakdown of what the DHPP vaccine covers, the recommended schedule, and why it is vital for your dog.\n\n---\n\n### 1. What does DHPP stand for?\n\nEach letter represents a specific disease the vaccine targets:\n\n*   **D Â– Distemper:** A severe viral disease that attacks the respiratory, gastrointestinal, and nervous systems. It is often fatal, and dogs that survive frequently suffer permanent neurological damage.\n*   **H Â– Hepatitis (Adenovirus Type 1):** This virus targets the liver, kidneys, spleen, and lungs. It can cause \"blue eye\" (corneal edema) and lead to liver failure. *Note: The vaccine also protects against Adenovirus Type 2, which is a contributor to kennel cough.*\n*   **P Â– Parainfluenza:** A highly contagious respiratory virus. While not usually fatal on its own, it weakens the immune system and is one of the primary causes of \"kennel cough.\"\n*   **P Â– Parvovirus:** A devastating and highly resilient virus that attacks the gastrointestinal tract and bone marrow. It causes severe vomiting and bloody diarrhea. Without treatment, the mortality rate is over 90%, particularly in puppies.\n\n---\n\n### 2. The Vaccination Schedule\n\nBecause puppies lose the immunity they get from their motherÂ’s milk (maternal antibodies) at different rates, they require a series of boosters to ensure they are protected.\n\n*   **Puppy Series:**\n    *   **6Â–8 weeks:** First dose.\n    *   **10Â–12 weeks:** Second dose.\n    *   **14Â–16 weeks:** Third (and usually final puppy) dose. \n    *   *Note: Some vets recommend a 4th dose at 20 weeks for high-risk breeds or areas.*\n*   **Adult Booster:**\n    *   **1 Year after puppy series:** A \"bridge\" booster to solidify immunity.\n    *   **Every 3 Years:** Most modern veterinary protocols (AAHA guidelines) now recommend the DHPP booster every three years rather than annually, as the immunity for these specific viruses lasts a long time.\n\n---\n\n### 3. Why is it a \"Core\" Vaccine?\nThe American Animal Hospital Association (AAHA) classifies DHPP as **core**, meaning every dog, regardless of lifestyle or geographic location, should receive it. These viruses are hardy in the environment (Parvo can live in soil for years) and are easily transmitted through the air or by sniffing contaminated surfaces.\n\n---\n\n### 4. DHPP vs. DHLPP\nYou may hear your vet mention **DHLPP**. The \"L\" stands for **Leptospirosis**, a bacterial infection spread through the urine of wildlife (rats, raccoons, deer). \n*   **DHPP** is the standard core.\n*   **DHLPP** is recommended for dogs that spend time outdoors, near standing water, or in areas with high wildlife activity.\n\n---\n\n### 5. Potential Side Effects\nMost dogs handle the DHPP vaccine very well. However, like any medical procedure, there can be side effects:\n\n*   **Common/Mild (Normal):** Slight lethargy, mild fever, or a small, tender lump at the injection site for 24Â–48 hours.\n*   **Rare/Severe (Call a vet):** Hives, swelling of the face or muzzle, persistent vomiting, or difficulty breathing. These are signs of an allergic reaction (anaphylaxis).\n\n---\n\n### Expert Tip for Owners:\nIf you have a puppy that has not completed its full DHPP series (all three shots), **do not take them to dog parks, pet stores, or communal grassy areas.** Their immune system is not yet fully \"taught\" how to fight off Parvo or Distemper. Wait until 7Â–10 days after the *final* puppy shot before socializing in public spaces.\n\n**Always consult with your veterinarian to tailor the vaccination timing to your specific dogÂ’s health and environment.**",
+    "timestamp": "2026-03-27T06:57:30.827Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 8,
+  "fields": {
+    "user": 17,
+    "user_query": "what's the weather like today?",
+    "ai_response": "As a professional dog expert, I donÂ’t have access to your specific GPS coordinates to tell you exactly whatÂ’s happening outside your window right now. However, I can tell you exactly what the weather means for your dog and what you should be looking out for!\n\nIf you tell me your city or the current temperature, I can give you a specific \"Paws Report.\" In the meantime, here is my expert guide on how to read the weather through your dogÂ’s eyes:\n\n### 1. If it's Sunny and Hot (above 75Â°F / 24Â°C)\n*   **The 7-Second Rule:** Place the back of your hand on the pavement. If you canÂ’t hold it there for 7 seconds, itÂ’s too hot for your dogÂ’s paw pads. Stick to the grass!\n*   **Hydration:** Always carry a portable water bowl. Dogs donÂ’t sweat like us; they pant to cool down, which uses up a lot of moisture.\n*   **Watch for Brachycephalic breeds:** Pugs, Bulldogs, and Frenchies struggle significantly more in the heat. Limit their outdoor time strictly.\n\n### 2. If it's Cold and Frosty (below 45Â°F / 7Â°C)\n*   **Check the Coat:** If you have a short-haired breed (like a Greyhound or Pitbull), it's \"sweater weather.\" If you have a Husky or a Samoyed, they are finally in their element!\n*   **Beware of Salt:** Cities often use salt or chemical de-icers on sidewalks. These can burn a dogÂ’s paws or be toxic if licked off later. Always wipe their paws with a warm cloth when you get inside.\n\n### 3. If it's Raining\n*   **The \"Wet Dog\" Scent:** Keep a dedicated microfiber towel by the door. Drying them quickly prevents that damp smell and keeps their skin from getting irritated.\n*   **Fear of Thunder:** If the rain includes storms, watch for signs of anxiety (pacing, whining, hiding). This is a good time for indoor \"nose work\" games to distract them.\n\n### 4. If it's Windy\n*   **Scents are Flying:** Your dogÂ’s nose is likely going into overdrive! Wind carries scents from miles away, which can make dogs more distracted or \"sniffy\" than usual on their walk.\n\n**WhatÂ’s the temperature where you are?** Tell me your local conditions, and I'll tell you if it's a \"long hike\" day or a \"stay inside with a puzzle toy\" day!",
+    "timestamp": "2026-03-27T07:48:42.483Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 9,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "",
+    "timestamp": "2026-04-08T10:51:36.933Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 10,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "",
+    "timestamp": "2026-04-08T11:08:43.867Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 11,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "",
+    "timestamp": "2026-04-08T11:15:06.365Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 12,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "Sorry, I couldn't understand. Please try again.",
+    "timestamp": "2026-04-08T11:25:23.470Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 13,
+  "fields": {
+    "user": 17,
+    "user_query": "hi",
+    "ai_response": "Dog expert is resting ???? Try again.",
+    "timestamp": "2026-04-08T11:38:16.130Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 14,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "Dog expert is resting ???? Try again.",
+    "timestamp": "2026-04-08T11:38:26.998Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 15,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T11:44:08.205Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 16,
+  "fields": {
+    "user": 17,
+    "user_query": "dog health care tips",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T11:44:22.386Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 17,
+  "fields": {
+    "user": 17,
+    "user_query": "What is the best food for a Labrador puppy?",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T11:45:29.510Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 18,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T11:56:45.870Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 19,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T12:00:13.195Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 20,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T12:04:49.294Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 21,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T12:07:45.033Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 22,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T12:12:45.662Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 23,
+  "fields": {
+    "user": 17,
+    "user_query": "dog health care tips",
+    "ai_response": "AI didn't return any result ????",
+    "timestamp": "2026-04-08T12:16:03.440Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 24,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "API key not valid. Please pass a valid API key.",
+    "timestamp": "2026-04-08T12:28:31.884Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 25,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "timestamp": "2026-04-08T12:41:20.953Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 26,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 52.135557509s.",
+    "timestamp": "2026-04-08T12:46:03.447Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 27,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 46.862084435s.",
+    "timestamp": "2026-04-08T13:26:08.707Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 28,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 41.637202s.",
+    "timestamp": "2026-04-08T13:34:13.932Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 29,
+  "fields": {
+    "user": 17,
+    "user_query": "rabbies vaccine",
+    "ai_response": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "timestamp": "2026-04-08T13:51:21.818Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 30,
+  "fields": {
+    "user": 17,
+    "user_query": "Rabbies vaccine",
+    "ai_response": "Sorry, I couldn't get an answer right now. (models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.)",
+    "timestamp": "2026-04-08T16:17:47.801Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 31,
+  "fields": {
+    "user": 17,
+    "user_query": "Rabbies vaccine",
+    "ai_response": "Hello there! I'm happy to help you with information about the Rabies vaccine for dogs! ????\n\nThe Rabies vaccine is one of the most crucial and often legally mandated vaccinations for our canine companions. Rabies is a severe, viral disease that affects the brain and spinal cord, and it's almost always fatal once symptoms appear. It can be transmitted to humans and other animals through the bite of an infected animal.\n\nVaccinating your dog against rabies is vital for their health and for public safety. Most regions require dogs to be vaccinated against rabies by a certain age, with booster shots given periodically (typically every one or three years, depending on the vaccine type and local regulations). This vaccine provides strong protection, preventing the virus from developing if your dog is exposed.\n\nAlways ensure your dog's rabies vaccination is up-to-date and that you have proof of vaccination, as it's often required for licensing and travel.",
+    "timestamp": "2026-04-08T16:33:03.847Z"
+  }
+},
+{
+  "model": "myadmin.chathistory",
+  "pk": 32,
+  "fields": {
+    "user": 17,
+    "user_query": "RABBIES",
+    "ai_response": "Oh, rabies is a very serious topic for our furry friends, and it's great you're asking about it! ????\n\nRabies is a viral disease that affects the brain and spinal cord of mammals, including dogs and humans. It's most commonly transmitted through the bite of an infected animal, where the virus in their saliva enters the bloodstream. Once symptoms appear, rabies is almost always fatal. This makes prevention incredibly important!\n\nFor dogs, vaccination is the cornerstone of",
+    "timestamp": "2026-04-08T23:38:38.982Z"
+  }
+}
+]
