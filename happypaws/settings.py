@@ -87,9 +87,10 @@ CLOUDINARY_STORAGE = {
     'API_SECRET': os.environ.get('08KEPZBUJDNyBo6dGwRwj8dKr0c'),
 }
 
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-
 STORAGES = {
+    "default": {
+        "BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage",
+    },
     "staticfiles": {
         "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
     },
