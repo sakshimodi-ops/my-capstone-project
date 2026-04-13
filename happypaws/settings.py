@@ -19,7 +19,7 @@ import os
 API_KEY = os.environ.get("GEMINI_API_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+
                                                                                                                                                                                             
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myadmin','rest_framework',
+    'cloudinary',
+    'cloudinary_storage',
 
 ]
 REST_FRAMEWORK = {
@@ -78,6 +80,20 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 
 ]
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': os.environ.get('djbwjvijt'),
+    'API_KEY': os.environ.get('537324139961561'),
+    'API_SECRET': os.environ.get('08KEPZBUJDNyBo6dGwRwj8dKr0c'),
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
+    },
+}
 
 ROOT_URLCONF = 'happypaws.urls'
 
@@ -178,9 +194,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
+
+_static_dir = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [_static_dir] if os.path.exists(_static_dir) else []
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
